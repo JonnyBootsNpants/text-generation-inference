@@ -206,6 +206,7 @@ pub struct CompletionRequest {
     pub top_p: Option<f32>,
     pub stream: Option<bool>,
     pub seed: Option<u64>,
+    pub suffix: Option<String>,
 }
 
 #[derive(Clone, Deserialize, Serialize, ToSchema, Default)]
@@ -248,6 +249,18 @@ pub(crate) struct ChatCompletionComplete {
     pub message: Message,
     pub logprobs: Option<Vec<f32>>,
     pub finish_reason: String,
+}
+
+#[derive(Clone, Deserialize, Serialize, ToSchema)]
+pub (crate) struct CompletionCompleteChunk {
+    pub id: String,
+    pub object: String,
+    #[schema(example = "1706270835")]
+    pub created: u64,
+    pub choices: Vec<CompletionComplete>,
+    #[schema(example = "mistralai/Mistral-7B-Instruct-v0.2")]
+    pub model: String,
+    pub system_fingerprint: String
 }
 
 #[derive(Clone, Deserialize, Serialize, Default)]
