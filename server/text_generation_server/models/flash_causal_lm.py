@@ -233,7 +233,7 @@ class FlashCausalLMBatch(Batch):
             )
 
         next_token_chooser = HeterogeneousNextTokenChooser.from_pb(
-            next_token_chooser_parameters, dtype, device
+            next_token_chooser_parameters, dtype, device, tokenizer
         )
         start_slots = torch.tensor(start_slots, dtype=torch.int64)
 
@@ -589,6 +589,8 @@ class FlashCausalLMBatch(Batch):
             next_token_chooser_parameters,
             dtype=batches[0].next_token_chooser.dtype,
             device=batches[0].next_token_chooser.device,
+            tokenizer=batches[0].next_token_chooser.tokenizer,
+            grammar=batches[0].requests.parameters.grammar,
         )
 
         speculative_ids = (
