@@ -95,6 +95,9 @@ class FlashCausalLMBatch(Batch):
     # Maximum number of blocks
     max_blocks: int
 
+    # The states for the grammar FSM
+    fsm_states: Dict[int, int] = None
+
     def to_pb(self) -> generate_pb2.CachedBatch:
         return generate_pb2.CachedBatch(
             id=self.batch_id,
@@ -133,6 +136,7 @@ class FlashCausalLMBatch(Batch):
         read_offsets = []
         all_input_ids = []
         requests_idx_mapping = {}
+        fsm_states = {}
 
         all_prefill_logprobs = True
         no_prefill_logprobs = True
@@ -315,6 +319,7 @@ class FlashCausalLMBatch(Batch):
             blocks=blocks,
             max_blocks=max_blocks,
             speculative_ids=None,
+            fsm_states=fsm_states,
         )
 
     @tracer.start_as_current_span("filter")
@@ -590,7 +595,6 @@ class FlashCausalLMBatch(Batch):
             dtype=batches[0].next_token_chooser.dtype,
             device=batches[0].next_token_chooser.device,
             tokenizer=batches[0].next_token_chooser.tokenizer,
-            grammar=batches[0].requests.parameters.grammar,
         )
 
         speculative_ids = (
@@ -912,9 +916,9 @@ class FlashCausalLM(Model):
                 # Copy batch.input_ids to prefill_token_indices
                 if prefill_logprobs:
                     if len(batch) > 1:
-                        prefill_tokens_indices[
-                            out_start_index : out_end_index - 1
-                        ] = batch.input_ids[start_index + 1 : start_index + out_length]
+                        prefill_tokens_indices[out_start_index : out_end_index - 1] = (
+                            batch.input_ids[start_index + 1 : start_index + out_length]
+                        )
                     else:
                         # Set prefill_tokens_indices to the correct slice
                         prefill_tokens_indices = batch.input_ids[
@@ -1065,7 +1069,7 @@ class FlashCausalLM(Model):
 
                 if top_n_tokens > 0:
                     all_top_tokens = []
-                    for (top_token_ids, top_token_logprobs) in zip(
+                    for top_token_ids, top_token_logprobs in zip(
                         top_token_ids, top_token_logprobs
                     ):
                         toptoken_texts = self.tokenizer.batch_decode(
