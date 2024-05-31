@@ -19,6 +19,8 @@ class Quantization(str, Enum):
     gptq = "gptq"
     awq = "awq"
     eetq = "eetq"
+    exl2 = "exl2"
+    fp8 = "fp8"
 
 
 class Dtype(str, Enum):
@@ -153,35 +155,27 @@ def download_weights(
         try:
             import json
 
-            medusa_head = hf_hub_download(
-                model_id, revision=revision, filename="medusa_lm_head.pt"
-            )
-            if auto_convert:
-                medusa_sf = Path(medusa_head[: -len(".pt")] + ".safetensors")
-                if not medusa_sf.exists():
-                    utils.convert_files([Path(medusa_head)], [medusa_sf], [])
-            medusa_config = hf_hub_download(
+            config = hf_hub_download(
                 model_id, revision=revision, filename="config.json"
             )
-            with open(medusa_config, "r") as f:
+            with open(config, "r") as f:
                 config = json.load(f)
 
-            model_id = config["base_model_name_or_path"]
-            revision = "main"
-            try:
-                utils.weight_files(model_id, revision, extension)
-                logger.info(
-                    f"Files for parent {model_id} are already present on the host. "
-                    "Skipping download."
-                )
-                return
-            # Local files not found
-            except (
-                utils.LocalEntryNotFoundError,
-                FileNotFoundError,
-                utils.EntryNotFoundError,
-            ):
-                pass
+            base_model_id = config.get("base_model_name_or_path", None)
+            if base_model_id and base_model_id != model_id:
+                try:
+                    logger.info(f"Downloading parent model {base_model_id}")
+                    download_weights(
+                        model_id=base_model_id,
+                        revision="main",
+                        extension=extension,
+                        auto_convert=auto_convert,
+                        logger_level=logger_level,
+                        json_output=json_output,
+                        trust_remote_code=trust_remote_code,
+                    )
+                except Exception:
+                    pass
         except (utils.LocalEntryNotFoundError, utils.EntryNotFoundError):
             pass
 
@@ -198,35 +192,6 @@ def download_weights(
             if not extension == ".safetensors" or not auto_convert:
                 raise e
 
-    elif (Path(model_id) / "medusa_lm_head.pt").exists():
-        # Try to load as a local Medusa model
-        try:
-            import json
-
-            medusa_head = Path(model_id) / "medusa_lm_head.pt"
-            if auto_convert:
-                medusa_sf = Path(model_id) / "medusa_lm_head.safetensors"
-                if not medusa_sf.exists():
-                    utils.convert_files([Path(medusa_head)], [medusa_sf], [])
-            medusa_config = Path(model_id) / "config.json"
-            with open(medusa_config, "r") as f:
-                config = json.load(f)
-
-            model_id = config["base_model_name_or_path"]
-            revision = "main"
-            try:
-                utils.weight_files(model_id, revision, extension)
-                logger.info(
-                    f"Files for parent {model_id} are already present on the host. "
-                    "Skipping download."
-                )
-                return
-            # Local files not found
-            except (utils.LocalEntryNotFoundError, utils.EntryNotFoundError):
-                pass
-        except (utils.LocalEntryNotFoundError, utils.EntryNotFoundError):
-            pass
-
     elif (Path(model_id) / "adapter_config.json").exists():
         # Try to load as a local PEFT model
         try:
@@ -237,14 +202,43 @@ def download_weights(
             return
         except (utils.LocalEntryNotFoundError, utils.EntryNotFoundError):
             pass
+    elif (Path(model_id) / "config.json").exists():
+        # Try to load as a local Medusa model
+        try:
+            import json
+
+            config = Path(model_id) / "config.json"
+            with open(config, "r") as f:
+                config = json.load(f)
+
+            base_model_id = config.get("base_model_name_or_path", None)
+            if base_model_id:
+                try:
+                    logger.info(f"Downloading parent model {base_model_id}")
+                    download_weights(
+                        model_id=base_model_id,
+                        revision="main",
+                        extension=extension,
+                        auto_convert=auto_convert,
+                        logger_level=logger_level,
+                        json_output=json_output,
+                        trust_remote_code=trust_remote_code,
+                    )
+                except Exception:
+                    pass
+        except (utils.LocalEntryNotFoundError, utils.EntryNotFoundError):
+            pass
 
     # Try to see if there are local pytorch weights
     try:
         # Get weights for a local model, a hub cached model and inside the WEIGHTS_CACHE_OVERRIDE
-        local_pt_files = utils.weight_files(model_id, revision, ".bin")
+        try:
+            local_pt_files = utils.weight_files(model_id, revision, ".bin")
+        except Exception:
+            local_pt_files = utils.weight_files(model_id, revision, ".pt")
 
     # No local pytorch weights
-    except utils.LocalEntryNotFoundError:
+    except (utils.LocalEntryNotFoundError, utils.EntryNotFoundError):
         if extension == ".safetensors":
             logger.warning(
                 f"No safetensors weights found for model {model_id} at revision {revision}. "
@@ -257,6 +251,13 @@ def download_weights(
         local_pt_files = utils.download_weights(pt_filenames, model_id, revision)
 
     if auto_convert:
+        if not trust_remote_code:
+            logger.warning(
+                f"🚨🚨BREAKING CHANGE in 2.0🚨🚨: Safetensors conversion is disabled without `--trust-remote-code` because "
+                f"Pickle files are unsafe and can essentially contain remote code execution!"
+                f"Please check for more information here: https://huggingface.co/docs/text-generation-inference/basic_tutorials/safety",
+            )
+
         logger.warning(
             f"No safetensors weights found for model {model_id} at revision {revision}. "
             f"Converting PyTorch weights to safetensors."

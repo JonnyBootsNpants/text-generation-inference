@@ -1,21 +1,24 @@
+from typing import List, Optional, Tuple
+
 import torch
 import torch.distributed
-
 from torch import nn
-from transformers.modeling_utils import PreTrainedModel
 from transformers.configuration_utils import PretrainedConfig
-from typing import Optional, List, Tuple
+from transformers.modeling_utils import PreTrainedModel
 
-from text_generation_server.utils import paged_attention, flash_attn
-from text_generation_server.utils.flash_attn import attention
-from text_generation_server.utils.layers import (
-    TensorParallelRowLinear,
+from text_generation_server.layers import (
+    SpeculativeHead,
     TensorParallelColumnLinear,
     TensorParallelEmbedding,
-    TensorParallelHead,
-    FastLayerNorm,
-    PositionRotaryEmbedding,
+    TensorParallelRowLinear,
     get_linear,
+)
+from text_generation_server.layers.layernorm import FastLayerNorm
+from text_generation_server.layers.rotary import PositionRotaryEmbedding
+from text_generation_server.layers.attention import (
+    attention,
+    paged_attention,
+    reshape_and_cache,
 )
 
 
@@ -48,6 +51,7 @@ class RWConfig(PretrainedConfig):
         hidden_size=64,
         num_hidden_layers=None,
         num_attention_heads=None,
+        num_ln_in_prallel_attention=None,
         layer_norm_epsilon=1e-5,
         initializer_range=0.02,
         use_cache=True,
@@ -61,6 +65,7 @@ class RWConfig(PretrainedConfig):
         new_decoder_architecture=None,
         bias=False,
         parallel_attn=False,
+        rope_theta=10_000.0,
         **kwargs,
     ):
         if alibi:
@@ -71,6 +76,7 @@ class RWConfig(PretrainedConfig):
         self.model_type = model_type
         self.alibi = False
         self.rotary = True
+        self.rope_theta = rope_theta
 
         self.vocab_size = vocab_size
         # Backward compatibility with n_embed kwarg
@@ -87,6 +93,7 @@ class RWConfig(PretrainedConfig):
             else kwargs.pop("n_head", 8)
         )
         self.layer_norm_epsilon = layer_norm_epsilon
+        self.num_ln_in_parallel_attention = num_ln_in_prallel_attention
         self.initializer_range = initializer_range
         self.use_cache = use_cache
         self.hidden_dropout = hidden_dropout
@@ -128,9 +135,13 @@ class FlashRWAttention(torch.nn.Module):
         self.num_heads_kv = config.n_head_kv
         self.hidden_size = config.hidden_size
         self.head_size = self.hidden_size // self.num_heads
+        self.rope_theta = config.rope_theta
 
         self.rotary_emb = PositionRotaryEmbedding.static(
-            config=config, dim=self.head_size, base=10000.0, device=weights.device
+            config=config,
+            dim=self.head_size,
+            base=self.rope_theta,
+            device=weights.device,
         )
         self.softmax_scale = self.head_size ** (-0.5)
 
@@ -187,9 +198,7 @@ class FlashRWAttention(torch.nn.Module):
         # Inplace rotary
         self.rotary_emb(query, torch.select(kv, dim=1, index=0), cos, sin)
 
-        paged_attention.reshape_and_cache(
-            kv[:, 0], kv[:, 1], kv_cache[0], kv_cache[1], slots
-        )
+        reshape_and_cache(kv[:, 0], kv[:, 1], kv_cache[0], kv_cache[1], slots)
 
         # output
         attn_output = torch.empty_like(query)
@@ -197,7 +206,7 @@ class FlashRWAttention(torch.nn.Module):
         # Prefill
         if cu_seqlen_prefill is not None:
             # flash attention
-            flash_attn.attention(
+            attention(
                 query,
                 torch.select(kv, dim=1, index=0),
                 torch.select(kv, dim=1, index=1),
@@ -208,7 +217,7 @@ class FlashRWAttention(torch.nn.Module):
             )
         # Decode
         else:
-            paged_attention.attention(
+            paged_attention(
                 attn_output,
                 query,
                 kv_cache[0],
@@ -240,9 +249,13 @@ class FlashRWLargeAttention(torch.nn.Module):
         self.hidden_size = hidden_size
         self.head_size = hidden_size // num_heads
         self.num_groups = num_groups
+        self.rope_theta = config.rope_theta
 
         self.rotary_emb = PositionRotaryEmbedding.static(
-            config=config, dim=self.head_size, base=10000.0, device=weights.device
+            config=config,
+            dim=self.head_size,
+            base=self.rope_theta,
+            device=weights.device,
         )
         self.softmax_scale = self.head_size ** (-0.5)
 
@@ -253,7 +266,7 @@ class FlashRWLargeAttention(torch.nn.Module):
 
         if process_group.size() > self.num_groups:
             raise NotImplementedError(
-                f"Tensor Parallelism is not implemented for world_size > n groups"
+                "Tensor Parallelism is not implemented for world_size > n groups"
             )
         if self.num_groups % process_group.size() != 0:
             raise NotImplementedError(
@@ -302,7 +315,7 @@ class FlashRWLargeAttention(torch.nn.Module):
         # Inplace rotary
         self.rotary_emb(query, torch.select(kv, dim=2, index=0), cos, sin)
 
-        paged_attention.reshape_and_cache(
+        reshape_and_cache(
             kv[:, :, 0].contiguous(),
             kv[:, :, 1].contiguous(),
             kv_cache[0],
@@ -316,7 +329,7 @@ class FlashRWLargeAttention(torch.nn.Module):
         # Prefill
         if cu_seqlen_prefill is not None:
             # flash attention
-            flash_attn.attention(
+            attention(
                 query,
                 torch.select(kv, dim=2, index=0),
                 torch.select(kv, dim=2, index=1),
@@ -327,7 +340,7 @@ class FlashRWLargeAttention(torch.nn.Module):
             )
         # Decode
         else:
-            paged_attention.attention(
+            paged_attention(
                 attn_output,
                 query,
                 kv_cache[0],
@@ -455,29 +468,61 @@ class FlashRWLayer(nn.Module):
                 max_s,
             )
 
-            hidden_states, residual = self.post_attention_layernorm(
-                hidden_states, residual
-            )
+            if self.post_attention_layernorm is not None:
+                hidden_states, residual = self.post_attention_layernorm(
+                    hidden_states, residual
+                )
 
             mlp_output = self.mlp(hidden_states)
 
             return mlp_output, residual
 
 
+class FlashRWLayerNorm(nn.Module):
+    def __init__(self, config, prefix, weights):
+        super().__init__()
+        self.num_ln = config.num_ln_in_parallel_attn
+
+        if self.num_ln == 1:
+            self.input_ln = FastLayerNorm.load(
+                prefix=f"{prefix}.input_layernorm",
+                weights=weights,
+                eps=config.layer_norm_epsilon,
+            )
+        elif self.num_ln == 2:
+            self.ln_attn = FastLayerNorm.load(
+                prefix=f"{prefix}.ln_attn",
+                weights=weights,
+                eps=config.layer_norm_epsilon,
+            )
+            self.ln_mlp = FastLayerNorm.load(
+                prefix=f"{prefix}.ln_mlp",
+                weights=weights,
+                eps=config.layer_norm_epsilon,
+            )
+        else:
+            raise ValueError("Number of layer norms can either be 1 or 2.")
+
+    def forward(
+        self,
+        hidden_states,
+        residual,
+    ):
+        if self.num_ln == 1:
+            ln_hidden_states, residual = self.input_ln(hidden_states, residual)
+            return ln_hidden_states, ln_hidden_states, residual
+        elif self.num_ln == 2:
+            ln_attn, residual = self.ln_attn(hidden_states, residual)
+            ln_mlp, _ = self.ln_mlp(residual)
+            return ln_attn, ln_mlp, residual
+
+
 class FlashRWLargeLayer(nn.Module):
     def __init__(self, layer_id, config, weights):
         super().__init__()
         prefix = f"transformer.h.{layer_id}"
-        self.ln_attn = FastLayerNorm.load(
-            prefix=f"{prefix}.ln_attn",
-            weights=weights,
-            eps=config.layer_norm_epsilon,
-        )
-        self.ln_mlp = FastLayerNorm.load(
-            prefix=f"{prefix}.ln_mlp",
-            weights=weights,
-            eps=config.layer_norm_epsilon,
-        )
+
+        self.ln_layer = FlashRWLayerNorm(config, prefix, weights)
 
         self.self_attention = FlashRWLargeAttention(
             config,
@@ -503,8 +548,8 @@ class FlashRWLargeLayer(nn.Module):
         input_lengths,
         max_s,
     ):
-        ln_attn, residual = self.ln_attn(hidden_states, residual)
-        ln_mlp, _ = self.ln_mlp(residual)
+        # Layer norm.
+        ln_attn, ln_mlp, residual = self.ln_layer(hidden_states, residual)
 
         # Self attention.
         attn_output = self.self_attention(
@@ -613,9 +658,7 @@ class FlashRWForCausalLM(FlashRWPreTrainedModel):
 
         self.transformer = FlashRWModel(config, weights)
 
-        self.lm_head = TensorParallelHead.load(
-            config, prefix="lm_head", weights=weights
-        )
+        self.lm_head = SpeculativeHead.load(config, prefix="lm_head", weights=weights)
 
     def forward(
         self,

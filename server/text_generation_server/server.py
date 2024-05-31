@@ -2,6 +2,7 @@ import asyncio
 import os
 import torch
 import time
+import signal
 
 from grpc import aio
 from loguru import logger
@@ -13,9 +14,34 @@ from typing import List, Optional
 from text_generation_server.cache import Cache
 from text_generation_server.interceptor import ExceptionInterceptor
 from text_generation_server.models import Model, get_model
+
+try:
+    from text_generation_server.models.pali_gemma import PaliGemmaBatch
+    from text_generation_server.models.vlm_causal_lm import (
+        VlmCausalLMBatch,
+    )
+    from text_generation_server.models.idefics_causal_lm import IdeficsCausalLMBatch
+
+    VLM_BATCH_TYPES = {PaliGemmaBatch, VlmCausalLMBatch, IdeficsCausalLMBatch}
+except (ImportError, NotImplementedError):
+    # These imports can fail on CPU/Non flash.
+    VLM_BATCH_TYPES = set()
+
 from text_generation_server.pb import generate_pb2_grpc, generate_pb2
 from text_generation_server.tracing import UDSOpenTelemetryAioServerInterceptor
-from text_generation_server.models.idefics_causal_lm import IdeficsCausalLMBatch
+from text_generation_server.models.globals import set_model_id
+
+
+class SignalHandler:
+    KEEP_PROCESSING = True
+
+    def __init__(self):
+        signal.signal(signal.SIGINT, self.exit_gracefully)
+        signal.signal(signal.SIGTERM, self.exit_gracefully)
+
+    def exit_gracefully(self, signum, frame):
+        print(f"Exiting gracefully: Signal {signum}")
+        self.KEEP_PROCESSING = False
 
 
 class TextGenerationService(generate_pb2_grpc.TextGenerationServiceServicer):
@@ -63,12 +89,12 @@ class TextGenerationService(generate_pb2_grpc.TextGenerationServiceServicer):
         return generate_pb2.FilterBatchResponse(batch=filtered_batch.to_pb())
 
     async def Warmup(self, request, context):
-        if self.quantize == "gptq":
+        if self.quantize in {"exl2", "gptq"}:
             try:
                 # When using GPTQ, Exllama kernels need some global kernels
                 # For which we have the finale shapes only after the model has loaded
                 # This will allocate those buffers.
-                from text_generation_server.utils.layers import (
+                from text_generation_server.layers.gptq import (
                     create_exllama_buffers,
                     set_device,
                 )
@@ -79,12 +105,13 @@ class TextGenerationService(generate_pb2_grpc.TextGenerationServiceServicer):
                 pass
 
         if (
-            self.model.batch_type == IdeficsCausalLMBatch
+            self.model.batch_type in VLM_BATCH_TYPES
         ):  # Hack, i would rather use kwargs in the `from_pb` call
-            batch = self.model.batch_type.from_pb(
+            batch = self.model.batch_type.from_pb_processor(
                 request.batch,
                 self.model.tokenizer,
                 self.model.processor,
+                self.model.model.config,
                 self.model.dtype,
                 self.model.device,
             )
@@ -101,12 +128,13 @@ class TextGenerationService(generate_pb2_grpc.TextGenerationServiceServicer):
     async def Prefill(self, request, context):
         start = time.time_ns()
         if (
-            self.model.batch_type == IdeficsCausalLMBatch
+            self.model.batch_type in VLM_BATCH_TYPES
         ):  # Hack, i would rather use kwargs in the `from_pb` call
-            batch = self.model.batch_type.from_pb(
+            batch = self.model.batch_type.from_pb_processor(
                 request.batch,
                 self.model.tokenizer,
                 self.model.processor,
+                self.model.model.config,
                 self.model.dtype,
                 self.model.device,
             )
@@ -225,13 +253,11 @@ def serve(
         await server.start()
 
         logger.info("Server started at {}".format(local_url))
+        signal_handler = SignalHandler()
+        while signal_handler.KEEP_PROCESSING:
+            await asyncio.sleep(0.5)
 
-        try:
-            await server.wait_for_termination()
-        except KeyboardInterrupt:
-            logger.info("Signal received. Shutting down")
-            await server.stop(0)
-
+    set_model_id(model_id)
     asyncio.run(
         serve_inner(
             model_id, revision, sharded, quantize, speculate, dtype, trust_remote_code

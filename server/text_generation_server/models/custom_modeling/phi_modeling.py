@@ -9,11 +9,11 @@ from typing import Optional, List, Tuple, Any
 from transformers.configuration_utils import PretrainedConfig
 from transformers.modeling_outputs import CausalLMOutputWithPast
 
-from text_generation_server.utils.layers import (
+from text_generation_server.layers import (
     TensorParallelRowLinear,
     TensorParallelColumnLinear,
     TensorParallelEmbedding,
-    TensorParallelHead,
+    SpeculativeHead,
     FastLinear,
 )
 
@@ -120,7 +120,7 @@ class PhiCausalLMHead(nn.Module):
             weights=weights,
             eps=config.layer_norm_epsilon,
         )
-        self.linear = TensorParallelHead.load(
+        self.linear = SpeculativeHead.load(
             config=config, prefix="lm_head.linear", weights=weights
         )
 

@@ -190,15 +190,21 @@ impl State {
         token_budget: u32,
     ) -> Option<NextBatch> {
         if self.entries.is_empty() {
+            tracing::debug!("No queue");
             return None;
         }
 
         // Check if we have enough entries
         if let Some(min_size) = min_size {
             if self.entries.len() < min_size {
+                tracing::debug!("Not enough entries");
                 return None;
             }
         }
+
+        // Pad prefill_token_budget to be a multiple of block size
+        let prefill_token_budget =
+            ((prefill_token_budget + self.block_size - 1) / self.block_size) * self.block_size;
 
         // Create span for this batch to add context to inference calls
         let next_batch_span = info_span!(parent: None, "batch", batch_size = tracing::field::Empty);
@@ -218,6 +224,7 @@ impl State {
             // was dropped by the client)
             if entry.response_tx.is_closed() {
                 metrics::increment_counter!("tgi_request_failure", "err" => "dropped");
+                tracing::debug!("Dropping entry");
                 continue;
             }
 
@@ -254,10 +261,12 @@ impl State {
             {
                 // Entry is over budget
                 // Add it back to the front
+                tracing::debug!("Over budget: prefill_tokens={prefill_tokens} > {prefill_token_budget} || {prefill_tokens} + {decode_tokens} + {} > {token_budget}", self.speculate);
                 self.entries.push_front((id, entry));
                 break;
             }
 
+            tracing::debug!("Accepting entry");
             // Create a new span to link the batch back to this entry
             let entry_batch_span = info_span!(parent: &entry.span, "infer");
             // Add relationships
@@ -288,6 +297,7 @@ impl State {
 
         // Empty batch
         if batch_requests.is_empty() {
+            tracing::debug!("Filterered out all entries");
             return None;
         }
 
@@ -343,7 +353,9 @@ enum QueueCommand {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use text_generation_client::{NextTokenChooserParameters, StoppingCriteriaParameters};
+    use text_generation_client::{
+        GrammarType as ProtoGrammarType, NextTokenChooserParameters, StoppingCriteriaParameters,
+    };
     use tracing::info_span;
 
     fn default_entry() -> (
@@ -354,7 +366,7 @@ mod tests {
 
         let entry = Entry {
             request: ValidGenerateRequest {
-                inputs: "".to_string(),
+                inputs: String::new(),
                 input_length: 0,
                 truncate: 0,
                 decoder_input_details: false,
@@ -368,6 +380,8 @@ mod tests {
                     repetition_penalty: 0.0,
                     frequency_penalty: 0.0,
                     watermark: false,
+                    grammar: String::new(),
+                    grammar_type: ProtoGrammarType::None as i32,
                 },
                 stopping_parameters: StoppingCriteriaParameters {
                     ignore_eos_token: false,

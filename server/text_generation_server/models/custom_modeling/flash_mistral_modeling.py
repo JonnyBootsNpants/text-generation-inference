@@ -26,16 +26,30 @@ from transformers.activations import ACT2FN
 from transformers.configuration_utils import PretrainedConfig
 from typing import Optional, List, Tuple
 
-from text_generation_server.utils import paged_attention, flash_attn
-from text_generation_server.utils.layers import (
+from text_generation_server.utils.import_utils import SYSTEM
+from text_generation_server.layers.attention import (
+    paged_attention,
+    attention,
+    reshape_and_cache,
+)
+from text_generation_server.layers import (
     TensorParallelRowLinear,
     TensorParallelColumnLinear,
     TensorParallelEmbedding,
-    PositionRotaryEmbedding,
-    TensorParallelHead,
+    SpeculativeHead,
     get_linear,
+)
+from text_generation_server.layers.rotary import PositionRotaryEmbedding
+from text_generation_server.layers.layernorm import (
     FastRMSNorm,
 )
+
+
+if SYSTEM == "rocm":
+    try:
+        from vllm import _custom_C
+    except Exception as e:
+        raise ImportError(f"Could not load `vllm._custom_C`. Full error: {e}")
 
 
 class MistralConfig(PretrainedConfig):
@@ -92,45 +106,6 @@ class MistralConfig(PretrainedConfig):
         )
 
 
-def load_attention(config, prefix, weights):
-    if config.num_attention_heads != config.num_key_value_heads:
-        return _load_gqa(config, prefix, weights)
-    else:
-        return TensorParallelColumnLinear.load_multi(
-            config,
-            prefixes=[f"{prefix}.q_proj", f"{prefix}.k_proj", f"{prefix}.v_proj"],
-            dim=0,
-            weights=weights,
-            bias=False,
-        )
-
-
-def _load_gqa(config, prefix: str, weights):
-    assert config.hidden_size % config.num_attention_heads == 0
-    assert config.num_attention_heads % weights.process_group.size() == 0
-
-    weight = weights.get_multi_weights_col(
-        prefixes=[f"{prefix}.q_proj", f"{prefix}.k_proj", f"{prefix}.v_proj"],
-        quantize=config.quantize,
-        dim=0,
-    )
-
-    if config.quantize not in ["gptq", "awq"]:
-        weight = weight.to(dtype=weights.dtype).to(device=weights.device)
-
-        head_size = config.hidden_size // config.num_attention_heads
-        num_heads = config.num_attention_heads // weights.process_group.size()
-        num_key_value_heads = config.num_key_value_heads // weights.process_group.size()
-        assert list(weight.shape) == [
-            (num_heads + 2 * num_key_value_heads) * head_size,
-            config.hidden_size,
-        ], f"{list(weight.shape)} != {[(num_heads + 2 * config.num_key_value_heads) * head_size, config.hidden_size]}"
-
-    return TensorParallelColumnLinear(
-        get_linear(weight, bias=None, quantize=config.quantize)
-    )
-
-
 class MistralAttention(torch.nn.Module):
     def __init__(
         self,
@@ -165,7 +140,13 @@ class MistralAttention(torch.nn.Module):
             config.num_key_value_heads // weights.process_group.size()
         )
 
-        self.query_key_value = load_attention(config, prefix, weights)
+        self.query_key_value = TensorParallelColumnLinear.load_multi(
+            config,
+            prefixes=[f"{prefix}.q_proj", f"{prefix}.k_proj", f"{prefix}.v_proj"],
+            dim=0,
+            weights=weights,
+            bias=False,
+        )
 
         self.o_proj = TensorParallelRowLinear.load(
             config,
@@ -209,7 +190,7 @@ class MistralAttention(torch.nn.Module):
         else:
             kv_to_cache = kv
 
-        paged_attention.reshape_and_cache(
+        reshape_and_cache(
             kv_to_cache[:, 0], kv_to_cache[:, 1], kv_cache[0], kv_cache[1], slots
         )
 
@@ -219,7 +200,7 @@ class MistralAttention(torch.nn.Module):
         # Prefill
         if cu_seqlen_prefill is not None:
             # flash attention
-            flash_attn.attention(
+            attention(
                 query,
                 torch.select(kv, dim=1, index=0),
                 torch.select(kv, dim=1, index=1),
@@ -231,7 +212,7 @@ class MistralAttention(torch.nn.Module):
             )
         # Decode
         else:
-            paged_attention.attention(
+            paged_attention(
                 attn_output,
                 query,
                 kv_cache[0],
@@ -249,15 +230,17 @@ class MistralAttention(torch.nn.Module):
 class MistralMLP(nn.Module):
     def __init__(self, prefix, config, weights):
         super().__init__()
-        act = config.hidden_act
+        self.hidden_act = config.hidden_act
         self.act = (
-            ACT2FN[act]
-            if "gelu" not in act
+            ACT2FN[self.hidden_act]
+            if "gelu" not in self.hidden_act
             else lambda x: torch.nn.functional.gelu(
                 x,
-                approximate="tanh"
-                if act in ["gelu_fast", "gelu_pytorch_tanh"]
-                else "none",
+                approximate=(
+                    "tanh"
+                    if self.hidden_act in ["gelu_fast", "gelu_pytorch_tanh"]
+                    else "none"
+                ),
             )
         )
         # Fuse gate and up proj
@@ -278,16 +261,33 @@ class MistralMLP(nn.Module):
             config.intermediate_size // weights.process_group.size()
         )
 
+        # TODO: This is a hotfix to be removed & properly refactored.
+        self.quantize = config.quantize
+
     def forward(self, hidden_states):
-        gate_up_states = self.gate_up_proj(hidden_states)
-        gate_up_states = gate_up_states.view(-1, 2, self.intermediate_size)
-        return self.down_proj(self.act(gate_up_states[:, 0]) * gate_up_states[:, 1])
+        if (
+            SYSTEM == "rocm"
+            and self.hidden_act == "silu"
+            and hidden_states.shape[0] == 1
+            and not self.quantize
+        ):
+            out = torch.empty(
+                hidden_states.shape[0],
+                self.intermediate_size,
+                dtype=hidden_states.dtype,
+                device="cuda",
+            )
+            _custom_C.LLMM_Silu(self.gate_up_proj.linear.weight, hidden_states, out, 8)
+            return self.down_proj(out)
+        else:
+            gate_up_states = self.gate_up_proj(hidden_states)
+            gate_up_states = gate_up_states.view(-1, 2, self.intermediate_size)
+            return self.down_proj(self.act(gate_up_states[:, 0]) * gate_up_states[:, 1])
 
 
 class MistralLayer(nn.Module):
-    def __init__(self, layer_id, config, weights):
+    def __init__(self, prefix, config, weights):
         super().__init__()
-        prefix = f"model.layers.{layer_id}"
         self.self_attn = MistralAttention(
             prefix=f"{prefix}.self_attn", config=config, weights=weights
         )
@@ -343,27 +343,24 @@ class MistralLayer(nn.Module):
 
 
 class MistralModel(torch.nn.Module):
-    def __init__(self, config, weights):
+    def __init__(self, prefix, config, weights):
         super().__init__()
 
         process_group = weights.process_group
         self.tp_rank = process_group.rank()
         self.tp_world_size = process_group.size()
-        self.embed_tokens = TensorParallelEmbedding(
-            prefix="model.embed_tokens", weights=weights
-        )
         self.layers = nn.ModuleList(
             [
                 MistralLayer(
-                    layer_id,
-                    config,
-                    weights,
+                    prefix=f"{prefix}.layers.{layer_id}",
+                    config=config,
+                    weights=weights,
                 )
                 for layer_id in range(config.num_hidden_layers)
             ]
         )
         self.norm = FastRMSNorm.load(
-            prefix="model.norm", weights=weights, eps=config.rms_norm_eps
+            prefix=f"{prefix}.norm", weights=weights, eps=config.rms_norm_eps
         )
 
         self.gradient_checkpointing = False
@@ -374,7 +371,7 @@ class MistralModel(torch.nn.Module):
 
     def forward(
         self,
-        input_ids: torch.Tensor,
+        inputs_embeds: torch.Tensor,
         position_ids: torch.Tensor,
         cu_seqlen_prefill: Optional[torch.Tensor],
         kv_cache: List[Tuple[torch.Tensor, torch.Tensor]],
@@ -384,9 +381,8 @@ class MistralModel(torch.nn.Module):
         max_s: int,
         true_max_s: int,
         prefill_cache_indices: Optional[torch.Tensor],
-    ) -> torch.Tensor:
-        hidden_states = self.embed_tokens(input_ids)
-
+    ):
+        hidden_states = inputs_embeds
         # Get rotary cos and sin for this forward
         # Avoid to index in each layer
         cos, sin = self.layers[0].self_attn.rotary_emb.get_cos_sin(
@@ -410,21 +406,41 @@ class MistralModel(torch.nn.Module):
             )
 
         hidden_states, _ = self.norm(hidden_states, residual)
-
         return hidden_states
 
 
 class FlashMistralForCausalLM(torch.nn.Module):
-    def __init__(self, config, weights):
+    def __init__(self, prefix, config, weights, name=None):
+        if name is None:
+            name = "model"
         super().__init__()
-
-        self.model = MistralModel(config, weights)
-        self.lm_head = TensorParallelHead.load(
+        self.embed_tokens = TensorParallelEmbedding(
+            prefix=(
+                f"{name}.embed_tokens"
+                if not prefix
+                else f"{prefix}.{name}.embed_tokens"
+            ),
+            weights=weights,
+        )
+        self.model = MistralModel(
+            prefix=name if not prefix else f"{prefix}.{name}",
+            config=config,
+            weights=weights,
+        )
+        self.lm_head = SpeculativeHead.load(
             config,
-            prefix="lm_head",
+            # TODO dirty hack for idefics2.
+            prefix=(
+                "lm_head" if not prefix or name != "model" else f"{prefix}.lm_head"
+            ),
             weights=weights,
         )
         self.max_past = config.sliding_window
+        self.max_past_tensor = (
+            torch.tensor(config.sliding_window, device=weights.device)
+            if self.max_past is not None
+            else None
+        )
 
     def forward(
         self,
@@ -446,11 +462,11 @@ class FlashMistralForCausalLM(torch.nn.Module):
         elif self.max_past is not None:
             # Clamp in decode mode as paged attention requires clamped values whereas the flash attention
             # kernel requires the true values
-            max_s = min(self.max_past, max_s)
-            input_lengths = torch.clamp(input_lengths, max=self.max_past)
+            input_lengths = torch.clamp(input_lengths, max=self.max_past_tensor)
 
+        inputs_embeds = self.embed_tokens(input_ids)
         hidden_states = self.model(
-            input_ids,
+            inputs_embeds,
             position_ids,
             cu_seqlen_prefill,
             kv_cache,

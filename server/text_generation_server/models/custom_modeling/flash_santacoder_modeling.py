@@ -5,14 +5,21 @@ from torch import nn
 from transformers.activations import ACT2FN
 from typing import Optional, List, Tuple
 
-from text_generation_server.utils import paged_attention, flash_attn
-from text_generation_server.utils.layers import (
+from text_generation_server.layers.gptq import GPTQWeight
+from text_generation_server.layers.attention import (
+    paged_attention,
+    attention,
+    reshape_and_cache,
+)
+from text_generation_server.layers import (
     TensorParallelRowLinear,
     TensorParallelColumnLinear,
-    TensorParallelHead,
+    SpeculativeHead,
     TensorParallelEmbedding,
-    FastLayerNorm,
     get_linear,
+)
+from text_generation_server.layers.layernorm import (
+    FastLayerNorm,
 )
 
 
@@ -69,22 +76,34 @@ def _load_multi_mqa_gptq(
         qzeros = torch.cat([q_tensor, kv_tensor], dim=1)
         qzeros = qzeros.to(device=weights.device)
 
-        bits, groupsize, _, quant_method, = weights._get_gptq_params()
+        (
+            bits,
+            groupsize,
+            _,
+            quant_method,
+        ) = weights._get_gptq_params()
         if quant_method == "gptq":
             g_idx = weights.get_tensor(f"{prefix}.c_attn.g_idx")
             g_idx = g_idx.to(device=weights.device)
         elif quant_method == "awq":
             g_idx = None
-            from text_generation_server.utils.awq.conversion_utils import (
+            from text_generation_server.layers.awq.conversion_utils import (
                 fast_awq_to_gptq,
             )
 
             qweight, qzeros = fast_awq_to_gptq(qweight, qzeros)
 
-        from text_generation_server.utils.layers import HAS_EXLLAMA
+        from text_generation_server.layers.gptq import HAS_EXLLAMA
 
-        use_exllama = HAS_EXLLAMA
-        weight = (qweight, qzeros, scales, g_idx, bits, groupsize, use_exllama)
+        weight = GPTQWeight(
+            qweight=qweight,
+            qzeros=qzeros,
+            scales=scales,
+            g_idx=g_idx,
+            bits=bits,
+            groupsize=groupsize,
+            use_exllama=HAS_EXLLAMA,
+        )
 
         if bias:
             slice_ = weights._get_slice(f"{prefix}.c_attn.bias")
@@ -261,7 +280,7 @@ class FlashMQAttention(torch.nn.Module):
         query = query.view(-1, self.num_heads, self.head_size)
         key_value = key_value.view(-1, 2, 1, self.head_size)
 
-        paged_attention.reshape_and_cache(
+        reshape_and_cache(
             key_value[:, 0], key_value[:, 1], kv_cache[0], kv_cache[1], slots
         )
 
@@ -271,7 +290,7 @@ class FlashMQAttention(torch.nn.Module):
         # Prefill
         if cu_seqlen_prefill is not None:
             # flash attention
-            flash_attn.attention(
+            attention(
                 query,
                 torch.select(key_value, dim=1, index=0),
                 torch.select(key_value, dim=1, index=1),
@@ -282,7 +301,7 @@ class FlashMQAttention(torch.nn.Module):
             )
         # Decode
         else:
-            paged_attention.attention(
+            paged_attention(
                 attn_output,
                 query,
                 kv_cache[0],
@@ -306,9 +325,9 @@ class MLP(nn.Module):
             if "gelu" not in act
             else lambda x: torch.nn.functional.gelu(
                 x,
-                approximate="tanh"
-                if act in ["gelu_fast", "gelu_pytorch_tanh"]
-                else "none",
+                approximate=(
+                    "tanh" if act in ["gelu_fast", "gelu_pytorch_tanh"] else "none"
+                ),
             )
         )
 
@@ -448,7 +467,7 @@ class FlashSantacoderForCausalLM(nn.Module):
     def __init__(self, config, weights):
         super().__init__()
         self.transformer = FlashSantacoderModel(config, weights)
-        self.lm_head = TensorParallelHead.load(
+        self.lm_head = SpeculativeHead.load(
             config, prefix="transformer.wte", weights=weights
         )
 

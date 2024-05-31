@@ -1,5 +1,5 @@
 # Rust builder
-FROM lukemathwalker/cargo-chef:latest-rust-1.71 AS chef
+FROM lukemathwalker/cargo-chef:latest-rust-1.78 AS chef
 WORKDIR /usr/src
 
 ARG CARGO_REGISTRIES_CRATES_IO_PROTOCOL=sparse
@@ -37,13 +37,13 @@ RUN cargo build --release
 
 # Python builder
 # Adapted from: https://github.com/pytorch/pytorch/blob/master/Dockerfile
-FROM nvidia/cuda:12.1.0-devel-ubuntu20.04 as pytorch-install
+FROM nvidia/cuda:12.1.0-devel-ubuntu22.04 as pytorch-install
 
-ARG PYTORCH_VERSION=2.1.1
+ARG PYTORCH_VERSION=2.3.0
 ARG PYTHON_VERSION=3.10
 # Keep in sync with `server/pyproject.toml
 ARG CUDA_VERSION=12.1
-ARG MAMBA_VERSION=23.3.1-1
+ARG MAMBA_VERSION=24.3.0-0
 ARG CUDA_CHANNEL=nvidia
 ARG INSTALL_CHANNEL=pytorch
 # Automatically set by buildx
@@ -85,7 +85,7 @@ FROM pytorch-install as kernel-builder
 ARG MAX_JOBS=8
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
-        ninja-build \
+        ninja-build cmake \
         && rm -rf /var/lib/apt/lists/*
 
 # Build Flash Attention CUDA kernels
@@ -149,6 +149,8 @@ FROM kernel-builder as vllm-builder
 
 WORKDIR /usr/src
 
+ENV TORCH_CUDA_ARCH_LIST="7.0 7.5 8.0 8.6 8.9 9.0+PTX"
+
 COPY server/Makefile-vllm Makefile
 
 # Build specific version of vllm
@@ -160,13 +162,8 @@ WORKDIR /usr/src
 COPY server/Makefile-selective-scan Makefile
 RUN make build-all
 
-# Build megablocks
-FROM kernel-builder as megablocks-builder
-
-RUN pip install git+https://github.com/OlivierDehaene/megablocks@181709df192de9a941fdf3a641cdc65a0462996e
-
 # Text Generation Inference base image
-FROM nvidia/cuda:12.1.0-base-ubuntu20.04 as base
+FROM nvidia/cuda:12.1.0-base-ubuntu22.04 as base
 
 # Conda env
 ENV PATH=/opt/conda/bin:$PATH \
@@ -184,10 +181,11 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-ins
         ca-certificates \
         make \
         curl \
+        git \
         && rm -rf /var/lib/apt/lists/*
 
-# Copy conda with PyTorch and Megablocks installed
-COPY --from=megablocks-builder /opt/conda /opt/conda
+# Copy conda with PyTorch installed
+COPY --from=pytorch-install /opt/conda /opt/conda
 
 # Copy build artifacts from flash attention builder
 COPY --from=flash-att-builder /usr/src/flash-attention/build/lib.linux-x86_64-cpython-310 /opt/conda/lib/python3.10/site-packages
@@ -225,7 +223,7 @@ COPY server/Makefile server/Makefile
 RUN cd server && \
     make gen-server && \
     pip install -r requirements_cuda.txt && \
-    pip install ".[bnb, accelerate, quantize, peft]" --no-cache-dir
+    pip install ".[bnb, accelerate, quantize, peft, outlines]" --no-cache-dir
 
 # Install benchmarker
 COPY --from=builder /usr/src/target/release/text-generation-benchmark /usr/local/bin/text-generation-benchmark
@@ -250,5 +248,8 @@ ENTRYPOINT ["./entrypoint.sh"]
 # Final image
 FROM base
 
-ENTRYPOINT ["text-generation-launcher"]
+COPY ./tgi-entrypoint.sh /tgi-entrypoint.sh
+RUN chmod +x /tgi-entrypoint.sh
+
+ENTRYPOINT ["/tgi-entrypoint.sh"]
 CMD ["--json-output"]

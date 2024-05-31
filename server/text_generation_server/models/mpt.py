@@ -43,6 +43,7 @@ class MPTSharded(CausalLM):
         model_id: str,
         revision: Optional[str] = None,
         quantize: Optional[str] = None,
+        speculator: Optional[str] = None,
         dtype: Optional[torch.dtype] = None,
         trust_remote_code: bool = False,
     ):
@@ -75,6 +76,7 @@ class MPTSharded(CausalLM):
             config = json.load(f)
         config = PretrainedConfig(**config)
         config.quantize = quantize
+        config.speculator = speculator
 
         torch.distributed.barrier(group=self.process_group)
 
