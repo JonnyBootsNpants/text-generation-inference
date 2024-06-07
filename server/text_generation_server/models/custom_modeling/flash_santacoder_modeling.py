@@ -5,7 +5,6 @@ from torch import nn
 from transformers.activations import ACT2FN
 from typing import Optional, List, Tuple
 
-from text_generation_server.layers.gptq import GPTQWeight
 from text_generation_server.layers.attention import (
     paged_attention,
     attention,
@@ -30,6 +29,10 @@ def load_multi_mqa(
         return _load_multi_mqa_gptq(
             config, prefix, weights, bias, head_size, num_heads, hidden_size
         )
+    elif config.quantize == "marlin":
+        raise RuntimeError(
+            "santacoder models with marlin quantization are not yet supported"
+        )
     else:
         return _load_multi_mqa(
             config, prefix, weights, bias, head_size, num_heads, hidden_size
@@ -39,6 +42,8 @@ def load_multi_mqa(
 def _load_multi_mqa_gptq(
     config, prefix: str, weights, bias: bool, head_size, num_heads, hidden_size
 ):
+    from text_generation_server.layers.gptq import GPTQWeight
+
     if any("c_attn" in k for k in weights.routing.keys()) and not config.transpose:
         world_size = weights.process_group.size()
         rank = weights.process_group.rank()
@@ -481,6 +486,7 @@ class FlashSantacoderForCausalLM(nn.Module):
         slots: torch.Tensor,
         input_lengths: torch.Tensor,
         max_s: int,
+        prefill_cache_indices: Optional[torch.Tensor],
         lm_head_indices: Optional[torch.Tensor] = None,
     ) -> torch.Tensor:
         hidden_states = self.transformer(

@@ -21,7 +21,6 @@ from transformers.activations import ACT2FN
 from transformers.configuration_utils import PretrainedConfig
 from typing import Optional, List, Tuple, Any
 from loguru import logger
-from text_generation_server.layers.gptq import GPTQWeight
 from text_generation_server.utils.import_utils import SYSTEM
 
 if SYSTEM != "xpu":
@@ -198,6 +197,8 @@ def _load_gqa(config, prefix: str, weights):
     v_stop = v_offset + (rank + 1) * kv_block_size
 
     if config.quantize in ["gptq", "awq"]:
+        from text_generation_server.layers.gptq import GPTQWeight
+
         try:
             qweight_slice = weights._get_slice(f"{prefix}.qweight")
             q_qweight = qweight_slice[:, q_start:q_stop]
@@ -270,6 +271,11 @@ def _load_gqa(config, prefix: str, weights):
             groupsize=groupsize,
             use_exllama=use_exllama,
         )
+    elif config.quantize == "marlin":
+        # NOTE: at the time marlin support was added, the only model that
+        #       exists is LnL-AI/dbrx-base-converted-v2-4bit-gptq-marlin(-v2),
+        #       but it requires manual concatenation of weight files.
+        raise RuntimeError("dbrx models with marlin quantization are not yet supported")
     else:
         qkv_slice = weights._get_slice(f"{prefix}.Wqkv.weight")
         q = qkv_slice[q_start:q_stop]
@@ -833,6 +839,7 @@ class FlashDbrxForCausalLM(torch.nn.Module):
         slots: torch.Tensor,
         input_lengths: torch.Tensor,
         max_s: int,
+        prefill_cache_indices: Optional[torch.Tensor],
         lm_head_indices: Optional[torch.Tensor] = None,
     ) -> Tuple[torch.Tensor, Optional[torch.Tensor]]:
         hidden_states = self.model(

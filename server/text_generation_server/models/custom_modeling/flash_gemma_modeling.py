@@ -145,7 +145,7 @@ def _load_gqa(config, prefix: str, weights):
         dim=0,
     )
 
-    if config.quantize not in ["gptq", "awq"]:
+    if config.quantize not in ["gptq", "awq", "marlin"]:
         weight = weight.to(dtype=weights.dtype).to(device=weights.device)
 
         head_size = config.head_dim
@@ -458,6 +458,7 @@ class FlashGemmaForCausalLM(torch.nn.Module):
         slots: torch.Tensor,
         input_lengths: torch.Tensor,
         max_s: int,
+        prefill_cache_indices: Optional[torch.Tensor],
         lm_head_indices: Optional[torch.Tensor] = None,
     ) -> Tuple[torch.Tensor, Optional[torch.Tensor]]:
         input_embeds = self.embed_tokens(input_ids)

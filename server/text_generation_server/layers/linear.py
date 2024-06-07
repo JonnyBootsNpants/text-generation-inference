@@ -2,8 +2,6 @@ from typing import Optional
 import torch
 from torch.nn import functional as F
 from text_generation_server.utils.import_utils import SYSTEM
-from text_generation_server.layers.exl2 import Exl2Weight
-from text_generation_server.layers.gptq import GPTQWeight
 
 if SYSTEM == "rocm":
     try:
@@ -155,6 +153,8 @@ def get_linear(weight, bias, quantize):
             quant_type="nf4",
         )
     elif quantize == "exl2":
+        from text_generation_server.layers.exl2 import Exl2Weight
+
         if not isinstance(weight, Exl2Weight):
             raise NotImplementedError(
                 f"The passed weight is not `exl2` compatible, loader needs to be updated."
@@ -165,6 +165,8 @@ def get_linear(weight, bias, quantize):
         linear = ExllamaQuantLinear(weight, bias)
 
     elif quantize == "gptq":
+        from text_generation_server.layers.gptq import GPTQWeight
+
         if not isinstance(weight, GPTQWeight):
             raise NotImplementedError(
                 f"The passed weight is not `gptq` compatible, loader needs to be updated."
@@ -194,6 +196,8 @@ def get_linear(weight, bias, quantize):
                 weight.groupsize,
             )
     elif quantize == "awq":
+        from text_generation_server.layers.gptq import GPTQWeight
+
         if not isinstance(weight, GPTQWeight):
             raise NotImplementedError(
                 f"The passed weight is not `awq` compatible, loader needs to be updated."
@@ -218,6 +222,14 @@ def get_linear(weight, bias, quantize):
             raise NotImplementedError(
                 "You do not seem to have awq installed, either install it (cd server &&  make install-awq), or try using GPTQ `---quantize gptq` a conversion AWQ->GPTQ will happen on the fly"
             )
+    elif quantize == "marlin":
+        from text_generation_server.layers.marlin import MarlinLinear, MarlinWeight
+
+        if not isinstance(weight, MarlinWeight):
+            raise NotImplementedError(
+                f"The passed weight is not `marlin` compatible, loader needs to be updated."
+            )
+        linear = MarlinLinear(B=weight.B, s=weight.s, bias=bias)
     else:
         raise NotImplementedError(f"Quantization `{quantize}` is not implemented yet.")
     return linear

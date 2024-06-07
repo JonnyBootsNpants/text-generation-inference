@@ -7,8 +7,6 @@ import torch
 from loguru import logger
 from huggingface_hub import hf_hub_download
 import json
-from text_generation_server.layers.exl2 import Exl2Weight
-from text_generation_server.layers.gptq import GPTQWeight
 from text_generation_server.utils.log import log_once
 
 
@@ -123,24 +121,30 @@ class Weights:
         ), f"The choosen size {size} is not compatible with sharding on {world_size} shards"
         return self.get_partial_sharded(tensor_name, dim)
 
-    def _get_qweight(self, name: str):
+    def _get_qweight(self, name: str, blocks: int):
         slice_ = self._get_slice(name)
         total_size = slice_.get_shape()[1]
-        assert total_size % 3 == 0, "Prepacked quantized qkv is not divisible by 3"
-        single_size = total_size // 3
+        assert (
+            total_size % blocks == 0
+        ), f"Prepacked quantized matrix is not divisible by {blocks}"
+        single_size = total_size // blocks
         world_size = self.process_group.size()
         rank = self.process_group.rank()
 
         assert (
             single_size % world_size == 0
-        ), f"Prepacked quantized qkv cannot be sharded across {world_size} shards"
+        ), f"Prepacked quantized matrix cannot be sharded across {world_size} shards"
         block_size = single_size // world_size
         start = rank * block_size
         stop = (rank + 1) * block_size
-        q = slice_[:, start:stop]
-        k = slice_[:, start + single_size : stop + single_size]
-        v = slice_[:, start + 2 * single_size : stop + 2 * single_size]
-        weight = torch.cat([q, k, v], dim=1)
+
+        weights = []
+        for block in range(blocks):
+            weights.append(
+                slice_[:, start + block * single_size : stop + block * single_size]
+            )
+
+        weight = torch.cat(weights, dim=1)
         weight = weight.to(device=self.device)
         return weight
 
@@ -156,8 +160,10 @@ class Weights:
         already alternating Q,K,V within the main tensor
         """
         if quantize in ["gptq", "awq"]:
+            from text_generation_server.layers.gptq import GPTQWeight
+
             try:
-                qweight = self._get_qweight(f"{prefix}.qweight")
+                qweight = self._get_qweight(f"{prefix}.qweight", blocks)
             except RuntimeError:
                 raise RuntimeError(
                     f"Cannot load `{quantize}` weight, make sure the model is already quantized."
@@ -165,8 +171,8 @@ class Weights:
 
             bits, groupsize, _, quant_method = self._get_gptq_params()
 
-            qzeros = self._get_qweight(f"{prefix}.qzeros")
-            scales = self._get_qweight(f"{prefix}.scales")
+            qzeros = self._get_qweight(f"{prefix}.qzeros", blocks)
+            scales = self._get_qweight(f"{prefix}.scales", blocks)
             scales = scales.to(dtype=self.dtype)
 
             if quantize == "gptq" and quant_method == "gptq":
@@ -196,6 +202,12 @@ class Weights:
                 groupsize=groupsize,
                 use_exllama=False,
             )
+        elif quantize == "marlin":
+            from text_generation_server.layers.marlin import MarlinWeight
+
+            B = self._get_qweight(f"{prefix}.B", blocks)
+            s = self._get_qweight(f"{prefix}.s", blocks)
+            weight = MarlinWeight(B=B, s=s)
         else:
             slice_ = self._get_slice(f"{prefix}.weight")
             total_size = slice_.get_shape()[0]
@@ -221,6 +233,8 @@ class Weights:
 
     def get_weights_col(self, prefix: str, quantize: str):
         if quantize == "exl2":
+            from text_generation_server.layers.exl2 import Exl2Weight
+
             try:
                 q_weight = self.get_tensor(f"{prefix}.q_weight")
             except RuntimeError:
@@ -247,6 +261,8 @@ class Weights:
         if quantize == "exl2":
             raise ValueError("get_multi_weights_col is not supported for exl2")
         elif quantize in ["gptq", "awq"]:
+            from text_generation_server.layers.gptq import GPTQWeight
+
             try:
                 qweight = torch.cat(
                     [self.get_sharded(f"{p}.qweight", dim=1) for p in prefixes], dim=1
@@ -306,9 +322,25 @@ class Weights:
                 groupsize=groupsize,
                 use_exllama=use_exllama,
             )
+        elif quantize == "marlin":
+            from text_generation_server.layers.marlin import MarlinWeight
+
+            try:
+                B = torch.cat(
+                    [self.get_sharded(f"{p}.B", dim=1) for p in prefixes], dim=1
+                )
+            except RuntimeError:
+                raise RuntimeError(
+                    f"Cannot load `{quantize}` weight, make sure the model is already quantized"
+                )
+            s = torch.cat([self.get_sharded(f"{p}.s", dim=1) for p in prefixes], dim=1)
+
+            weight = MarlinWeight(B=B, s=s)
+
         else:
             w = [self.get_sharded(f"{p}.weight", dim=0) for p in prefixes]
             weight = torch.cat(w, dim=dim)
+
         return weight
 
     def get_tensor_shard(self, var, dim):
@@ -329,6 +361,8 @@ class Weights:
 
     def get_multi_weights_row(self, prefix: str, quantize: str):
         if quantize == "exl2":
+            from text_generation_server.layers.exl2 import Exl2Weight
+
             try:
                 q_weight = self.get_tensor(f"{prefix}.q_weight")
             except RuntimeError:
@@ -388,7 +422,11 @@ class Weights:
                         # it would require to reorder input activations that are split unto several GPUs
                         use_exllama = False
 
-            from text_generation_server.layers.gptq import HAS_EXLLAMA, CAN_EXLLAMA
+            from text_generation_server.layers.gptq import (
+                HAS_EXLLAMA,
+                CAN_EXLLAMA,
+                GPTQWeight,
+            )
 
             if use_exllama:
                 if not HAS_EXLLAMA:
@@ -440,6 +478,8 @@ class Weights:
                 use_exllama=use_exllama,
             )
         elif quantize == "awq":
+            from text_generation_server.layers.gptq import GPTQWeight
+
             bits, groupsize, _, _ = self._get_gptq_params()
 
             try:
@@ -463,6 +503,25 @@ class Weights:
                 groupsize=groupsize,
                 use_exllama=use_exllama,
             )
+        elif quantize == "marlin":
+            from text_generation_server.layers.marlin import MarlinWeight
+
+            try:
+                B = self.get_sharded(f"{prefix}.B", dim=0)
+            except RuntimeError:
+                raise RuntimeError(
+                    "Cannot load `marlin` weight, make sure the model is already quantized, or quantize it with `text-generation-server quantize ORIGINAL_MODEL_ID NEW_MODEL_ID`"
+                )
+
+            num_groups = self._get_slice(f"{prefix}.s").get_shape()[0]
+            if num_groups == 1:
+                # The number of groups is 1 when group_size == -1. share
+                # scales between all shards in this case.
+                s = self.get_tensor(f"{prefix}.s")
+            else:
+                s = self.get_sharded(f"{prefix}.s", dim=0)
+            weight = MarlinWeight(B=B, s=s)
+
         else:
             weight = self.get_sharded(f"{prefix}.weight", dim=1)
         return weight
