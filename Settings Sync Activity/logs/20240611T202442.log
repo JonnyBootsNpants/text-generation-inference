@@ -1,0 +1,6 @@
+2024-06-11 20:24:45.472 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-11 20:24:45.472 [info] Auto Sync is enabled.
+2024-06-11 20:24:45.472 [info] Auto Sync: Suspended until auth token is available.
+2024-06-11 20:24:47.230 [info] Deleting non existing profile from backup /User/sync/-28201e28/extensions
+2024-06-11 20:24:47.240 [info] Deleting non existing profile from backup /User/sync/-28201e28/globalState
+2024-06-11 20:24:47.260 [info] Deleting non existing profile from backup /User/sync/-28201e28/profiles

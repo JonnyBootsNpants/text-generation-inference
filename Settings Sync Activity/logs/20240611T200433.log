@@ -1,0 +1,441 @@
+2024-06-11 20:04:38.830 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-11 20:04:38.830 [info] Auto Sync is enabled.
+2024-06-11 20:04:38.830 [info] Auto Sync: Suspended until auth token is available.
+2024-06-11 20:04:42.994 [info] Deleting non existing profile from backup /User/sync/-28201e28/extensions
+2024-06-11 20:04:43.005 [info] Deleting non existing profile from backup /User/sync/-28201e28/globalState
+2024-06-11 20:04:43.019 [info] Deleting non existing profile from backup /User/sync/-28201e28/keybindings
+2024-06-11 20:04:43.030 [info] Deleting non existing profile from backup /User/sync/-28201e28/profiles
+2024-06-11 20:04:43.049 [info] Deleting non existing profile from backup /User/sync/-28201e28/settings
+2024-06-11 20:04:43.069 [info] Deleting non existing profile from backup /User/sync/-28201e28/snippets
+2024-06-11 20:04:43.075 [info] Deleting non existing profile from backup /User/sync/-28201e28/tasks
+2024-06-11 20:04:48.055 [info] Profiles: Last sync resource does not exist locally.
+2024-06-11 20:04:49.656 [info] Auto Sync: Triggered by Interval
+2024-06-11 20:04:49.656 [info] Sync started.
+2024-06-11 20:04:50.085 [info] Settings: Last sync resource does not exist locally.
+2024-06-11 20:04:50.569 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:04:50.594 [info] Keybindings: Last sync resource does not exist locally.
+2024-06-11 20:04:50.835 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:04:50.838 [info] Snippets: Last sync resource does not exist locally.
+2024-06-11 20:04:51.088 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:04:51.105 [info] Tasks: Last sync resource does not exist locally.
+2024-06-11 20:04:51.485 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:04:51.514 [info] GlobalState: Last sync resource does not exist locally.
+2024-06-11 20:04:53.927 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:04:53.951 [info] Extensions: Last sync resource does not exist locally.
+2024-06-11 20:04:56.924 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:04:56.961 [info] Profiles: Last sync resource does not exist locally.
+2024-06-11 20:04:57.191 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:04:57.204 [info] Syncing profile. Python
+2024-06-11 20:04:57.227 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:04:57.228 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:04:57.790 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:04:57.790 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:04:58.022 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:04:58.112 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:04:58.142 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:04:58.658 [info] GlobalState (Python): Updated remote ui state. Updated: colorThemeData.
+2024-06-11 20:04:58.693 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-11 20:05:01.758 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:05:01.759 [error] extensions: XHR failed
+2024-06-11 20:05:01.761 [info] Sync done. Took 12105ms
+2024-06-11 20:05:08.350 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:05:08.350 [info] Sync started.
+2024-06-11 20:05:08.748 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:05:08.776 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:05:08.780 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:05:09.027 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:05:09.428 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:05:10.031 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:05:10.062 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:05:10.071 [info] Syncing profile. Python
+2024-06-11 20:05:10.074 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:05:10.074 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:05:11.364 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:05:11.364 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:05:11.376 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:05:11.393 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:05:11.428 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:05:11.474 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:05:12.840 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:05:12.841 [error] extensions: XHR failed
+2024-06-11 20:05:12.841 [info] Sync done. Took 4491ms
+2024-06-11 20:07:09.122 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:07:09.122 [info] Sync started.
+2024-06-11 20:07:09.607 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:07:09.612 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:07:09.617 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:07:09.621 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:07:09.707 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:07:10.103 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:07:10.254 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:07:10.275 [info] Syncing profile. Python
+2024-06-11 20:07:10.282 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:07:10.282 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:07:11.969 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:07:11.969 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:07:11.977 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:07:12.024 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:07:12.032 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:07:12.471 [info] GlobalState (Python): Updated remote ui state. Updated: workbench.statusbar.hidden,languageStatus.dedicated.
+2024-06-11 20:07:12.477 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-11 20:07:12.900 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:07:12.900 [error] extensions: XHR failed
+2024-06-11 20:07:12.901 [info] Sync done. Took 3779ms
+2024-06-11 20:10:03.206 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:10:03.206 [info] Sync started.
+2024-06-11 20:10:03.626 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:10:03.633 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:10:03.638 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:10:03.642 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:10:03.749 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:10:03.866 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:10:03.870 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:10:03.874 [info] Syncing profile. Python
+2024-06-11 20:10:03.876 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:10:03.876 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:10:04.092 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:10:04.092 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:10:04.098 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:10:04.105 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:10:04.108 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:10:04.505 [info] GlobalState (Python): Updated remote ui state. Updated: colorThemeData.
+2024-06-11 20:10:04.513 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-11 20:10:04.960 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:10:04.960 [error] extensions: XHR failed
+2024-06-11 20:10:04.961 [info] Sync done. Took 1755ms
+2024-06-11 20:10:33.893 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:10:33.893 [info] Sync started.
+2024-06-11 20:10:34.208 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:10:34.213 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:10:34.220 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:10:34.227 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:10:34.334 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:10:34.503 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:10:34.512 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:10:34.514 [info] Syncing profile. Python
+2024-06-11 20:10:34.520 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:10:34.520 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:10:34.748 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:10:34.748 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:10:34.756 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:10:34.765 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:10:34.772 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:10:34.785 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:10:35.477 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:10:35.477 [error] extensions: XHR failed
+2024-06-11 20:10:35.477 [info] Sync done. Took 1584ms
+2024-06-11 20:11:45.278 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:11:45.279 [info] Sync started.
+2024-06-11 20:11:45.548 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:11:45.554 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:11:45.558 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:11:45.565 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:11:45.663 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:11:45.804 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:11:45.813 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:11:45.816 [info] Syncing profile. Python
+2024-06-11 20:11:45.818 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:11:45.818 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:11:46.059 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:11:46.060 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:11:46.066 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:11:46.081 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:11:46.088 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:11:46.418 [info] GlobalState (Python): Updated remote ui state. Updated: workbench.statusbar.hidden,languageStatus.dedicated.
+2024-06-11 20:11:46.428 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-11 20:11:47.008 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:11:47.008 [error] extensions: XHR failed
+2024-06-11 20:11:47.008 [info] Sync done. Took 1729ms
+2024-06-11 20:12:18.192 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:12:18.192 [info] Sync started.
+2024-06-11 20:12:18.510 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:12:18.522 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:12:18.529 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:12:18.543 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:12:18.720 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:12:18.942 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:12:18.955 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:12:18.964 [info] Syncing profile. Python
+2024-06-11 20:12:18.971 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:12:18.971 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:12:19.248 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:12:19.248 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:12:19.256 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:12:19.269 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:12:19.277 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:12:20.791 [info] GlobalState (Python): Updated remote ui state. Updated: workbench.statusbar.hidden,languageStatus.dedicated.
+2024-06-11 20:12:20.808 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-11 20:12:21.234 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:12:21.234 [error] extensions: XHR failed
+2024-06-11 20:12:21.235 [info] Sync done. Took 3043ms
+2024-06-11 20:14:22.832 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:14:22.832 [info] Sync started.
+2024-06-11 20:14:23.324 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:14:23.332 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:14:23.339 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:14:23.349 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:14:23.437 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:14:23.584 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:14:23.596 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:14:23.599 [info] Syncing profile. Python
+2024-06-11 20:14:23.611 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:14:23.611 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:14:23.817 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:14:23.817 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:14:23.820 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:14:23.844 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:14:23.852 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:14:24.253 [info] GlobalState (Python): Updated remote ui state. Updated: memento/gettingStartedService.
+2024-06-11 20:14:24.264 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-11 20:14:24.738 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:14:24.738 [error] extensions: XHR failed
+2024-06-11 20:14:24.738 [info] Sync done. Took 1906ms
+2024-06-11 20:14:38.233 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:14:38.233 [info] Sync started.
+2024-06-11 20:14:38.456 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:14:38.460 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:14:38.463 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:14:38.466 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:14:38.562 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:14:38.674 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:14:38.685 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:14:38.691 [info] Syncing profile. Python
+2024-06-11 20:14:38.693 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:14:38.693 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:14:38.937 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:14:38.937 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:14:38.968 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:14:38.984 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:14:38.994 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:14:39.011 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:14:40.163 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:14:40.164 [error] extensions: XHR failed
+2024-06-11 20:14:40.164 [info] Sync done. Took 1931ms
+2024-06-11 20:16:06.577 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:16:06.578 [info] Sync started.
+2024-06-11 20:16:06.808 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:16:06.876 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:16:06.883 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:16:06.893 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:16:07.126 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:16:07.445 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:16:07.661 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:16:07.717 [info] Syncing profile. Python
+2024-06-11 20:16:07.731 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:16:07.731 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:16:08.164 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:16:08.164 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:16:08.177 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:16:08.218 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:16:08.257 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:16:08.274 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:16:08.960 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:16:08.960 [error] extensions: XHR failed
+2024-06-11 20:16:08.960 [info] Sync done. Took 2382ms
+2024-06-11 20:16:44.041 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:16:44.041 [info] Sync started.
+2024-06-11 20:16:44.307 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:16:44.313 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:16:44.319 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:16:44.334 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:16:44.466 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:16:44.596 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:16:44.603 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:16:44.605 [info] Syncing profile. Python
+2024-06-11 20:16:44.608 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:16:44.608 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:16:44.811 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:16:44.812 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:16:44.821 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:16:44.829 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:16:44.835 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:16:44.847 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:16:45.382 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:16:45.383 [error] extensions: XHR failed
+2024-06-11 20:16:45.383 [info] Sync done. Took 1342ms
+2024-06-11 20:17:02.322 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:17:02.322 [info] Sync started.
+2024-06-11 20:17:02.641 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:17:02.652 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:17:02.658 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:17:02.666 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:17:02.804 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:17:02.956 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:17:02.965 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:17:02.971 [info] Syncing profile. Python
+2024-06-11 20:17:02.973 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:17:02.973 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:17:03.212 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:17:03.212 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:17:03.219 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:17:03.228 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:17:03.236 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:17:03.249 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:17:03.760 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:17:03.761 [error] extensions: XHR failed
+2024-06-11 20:17:03.761 [info] Sync done. Took 1439ms
+2024-06-11 20:19:05.012 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:19:05.012 [info] Sync started.
+2024-06-11 20:19:05.547 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:19:05.570 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:19:05.578 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:19:05.594 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:19:05.865 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:19:05.995 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:19:05.999 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:19:06.003 [info] Syncing profile. Python
+2024-06-11 20:19:06.007 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:19:06.007 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:19:06.242 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:19:06.242 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:19:06.250 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:19:06.259 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:19:06.280 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:19:06.292 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:19:06.781 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:19:06.781 [error] extensions: XHR failed
+2024-06-11 20:19:06.781 [info] Sync done. Took 1769ms
+2024-06-11 20:19:13.325 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:19:13.325 [info] Sync started.
+2024-06-11 20:19:13.580 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:19:13.586 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:19:13.591 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:19:13.596 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:19:13.670 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:19:13.852 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:19:13.866 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:19:13.896 [info] Syncing profile. Python
+2024-06-11 20:19:13.908 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:19:13.908 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:19:14.108 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:19:14.108 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:19:14.111 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:19:14.118 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:19:14.122 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:19:14.494 [info] GlobalState (Python): Updated remote ui state. Updated: workbench.view.extensions.state.hidden.
+2024-06-11 20:19:14.498 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-11 20:19:14.876 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:19:14.876 [error] extensions: XHR failed
+2024-06-11 20:19:14.876 [info] Sync done. Took 1550ms
+2024-06-11 20:20:21.720 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:20:21.720 [info] Sync started.
+2024-06-11 20:20:21.955 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:20:21.961 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:20:21.969 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:20:21.976 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:20:22.059 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:20:22.165 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:20:22.172 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:20:22.174 [info] Syncing profile. Python
+2024-06-11 20:20:22.179 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:20:22.179 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:20:22.387 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:20:22.387 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:20:22.412 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:20:22.422 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:20:22.431 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:20:22.446 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:20:23.249 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:20:23.249 [error] extensions: XHR failed
+2024-06-11 20:20:23.249 [info] Sync done. Took 1529ms
+2024-06-11 20:20:36.823 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:20:36.824 [info] Sync started.
+2024-06-11 20:20:37.714 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:20:37.779 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:20:37.791 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:20:37.954 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:20:38.253 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:20:38.493 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:20:38.504 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:20:38.509 [info] Syncing profile. Python
+2024-06-11 20:20:38.514 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:20:38.515 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:20:38.907 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:20:38.907 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:20:38.921 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:20:38.937 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:20:38.972 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:20:39.007 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:20:39.867 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:20:39.867 [error] extensions: XHR failed
+2024-06-11 20:20:39.868 [info] Sync done. Took 3044ms

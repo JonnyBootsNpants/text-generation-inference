@@ -1,0 +1,1537 @@
+2024-06-11 20:25:43.933 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-11 20:25:43.934 [info] Auto Sync is enabled.
+2024-06-11 20:25:43.934 [info] Auto Sync: Suspended until auth token is available.
+2024-06-11 20:25:50.320 [info] Auto Sync: Triggered by Interval
+2024-06-11 20:25:50.320 [info] Sync started.
+2024-06-11 20:25:50.860 [info] Settings: Last sync resource does not exist locally.
+2024-06-11 20:25:51.047 [info] Profiles: Last sync resource does not exist locally.
+2024-06-11 20:25:51.198 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:25:51.244 [info] Keybindings: Last sync resource does not exist locally.
+2024-06-11 20:25:51.497 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:25:51.501 [info] Snippets: Last sync resource does not exist locally.
+2024-06-11 20:25:51.725 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:25:51.736 [info] Tasks: Last sync resource does not exist locally.
+2024-06-11 20:25:52.072 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:25:52.124 [info] GlobalState: Last sync resource does not exist locally.
+2024-06-11 20:25:55.329 [info] GlobalState: Updated remote ui state. Updated: recently.opened.
+2024-06-11 20:25:55.388 [info] GlobalState: Updated last synchronized ui state
+2024-06-11 20:25:55.403 [info] Extensions: Last sync resource does not exist locally.
+2024-06-11 20:25:55.913 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:25:55.926 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:25:55.934 [info] Syncing profile. Python
+2024-06-11 20:25:55.947 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:25:55.947 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:25:56.365 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:25:56.365 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:25:56.407 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:25:56.595 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:25:56.618 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:25:57.066 [info] GlobalState (Python): Updated remote ui state. Updated: colorThemeData.
+2024-06-11 20:25:57.238 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-11 20:25:58.162 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:25:58.163 [error] extensions: XHR failed
+2024-06-11 20:25:58.163 [info] Sync done. Took 7843ms
+2024-06-11 20:26:06.315 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:26:06.315 [info] Sync started.
+2024-06-11 20:26:06.589 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:26:06.600 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:26:06.603 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:26:06.607 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:26:06.707 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:26:07.004 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:26:07.022 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:26:07.028 [info] Syncing profile. Python
+2024-06-11 20:26:07.032 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:26:07.032 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:26:07.217 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:26:07.217 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:26:07.222 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:26:07.228 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:26:07.234 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:26:07.247 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:26:07.703 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:26:07.703 [error] extensions: XHR failed
+2024-06-11 20:26:07.704 [info] Sync done. Took 1389ms
+2024-06-11 20:26:23.530 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:26:23.530 [info] Sync started.
+2024-06-11 20:26:23.748 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:26:23.755 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:26:23.760 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:26:23.766 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:26:23.851 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:26:23.948 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:26:23.952 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:26:23.955 [info] Syncing profile. Python
+2024-06-11 20:26:23.957 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:26:23.957 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:26:24.141 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:26:24.141 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:26:24.145 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:26:24.152 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:26:24.156 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:26:24.428 [info] GlobalState (Python): Updated remote ui state. Updated: workbench.statusbar.hidden,languageStatus.dedicated.
+2024-06-11 20:26:24.441 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-11 20:26:25.010 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:26:25.010 [error] extensions: XHR failed
+2024-06-11 20:26:25.011 [info] Sync done. Took 1481ms
+2024-06-11 20:26:59.189 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:26:59.189 [info] Sync started.
+2024-06-11 20:26:59.447 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:26:59.454 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:26:59.459 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:26:59.465 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:26:59.572 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:26:59.854 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:26:59.863 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:26:59.870 [info] Syncing profile. Python
+2024-06-11 20:26:59.872 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:26:59.872 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:27:00.095 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:27:00.095 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:27:00.103 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:27:00.111 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:27:00.118 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:27:00.129 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:27:00.833 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:27:00.834 [error] extensions: XHR failed
+2024-06-11 20:27:00.834 [info] Sync done. Took 1645ms
+2024-06-11 20:28:11.015 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:28:11.015 [info] Sync started.
+2024-06-11 20:28:11.326 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:28:11.352 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:28:11.364 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:28:11.370 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:28:11.386 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:28:11.391 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:28:11.486 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:28:11.997 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:28:12.008 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:28:12.014 [info] Syncing profile. Python
+2024-06-11 20:28:12.016 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:28:12.016 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:28:12.278 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:28:12.278 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:28:12.315 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:28:12.351 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:28:12.362 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:28:12.375 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:28:12.830 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:28:12.831 [error] extensions: XHR failed
+2024-06-11 20:28:12.831 [info] Sync done. Took 1815ms
+2024-06-11 20:28:31.712 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:28:31.712 [info] Sync started.
+2024-06-11 20:28:32.063 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:28:32.103 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:28:32.107 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:28:32.114 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:28:32.125 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:28:32.126 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:28:32.243 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:28:32.651 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:28:32.664 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:28:32.668 [info] Syncing profile. Python
+2024-06-11 20:28:32.670 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:28:32.670 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:28:32.870 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:28:32.870 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:28:32.888 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:28:32.895 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:28:32.904 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:28:32.914 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:28:33.446 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:28:33.446 [error] extensions: XHR failed
+2024-06-11 20:28:33.446 [info] Sync done. Took 1733ms
+2024-06-11 20:32:12.642 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:32:12.642 [info] Sync started.
+2024-06-11 20:32:12.931 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:32:13.007 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:32:13.126 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:32:13.152 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:32:13.207 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:32:13.237 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:32:13.317 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:32:13.418 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:32:13.423 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:32:13.425 [info] Syncing profile. Python
+2024-06-11 20:32:13.428 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:32:13.428 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:32:13.653 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:32:13.654 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:32:13.686 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:32:13.706 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:32:13.718 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:32:14.145 [info] GlobalState (Python): Updated remote ui state. Updated: workbench.statusbar.hidden,languageStatus.dedicated.
+2024-06-11 20:32:14.158 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-11 20:32:14.637 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:32:14.637 [error] extensions: XHR failed
+2024-06-11 20:32:14.637 [info] Sync done. Took 1995ms
+2024-06-11 20:34:15.929 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:34:15.929 [info] Sync started.
+2024-06-11 20:34:16.471 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:34:16.490 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:34:16.497 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:34:16.502 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:34:16.513 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:34:16.514 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:34:16.574 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:34:16.811 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:34:16.817 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:34:16.825 [info] Syncing profile. Python
+2024-06-11 20:34:16.829 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:34:16.829 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:34:17.052 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:34:17.052 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:34:17.070 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:34:17.085 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:34:17.092 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:34:17.103 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:34:17.615 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:34:17.615 [error] extensions: XHR failed
+2024-06-11 20:34:17.615 [info] Sync done. Took 1686ms
+2024-06-11 20:34:53.999 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:34:54.000 [info] Sync started.
+2024-06-11 20:34:54.315 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:34:54.360 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:34:54.366 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:34:54.373 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:34:54.416 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:34:54.420 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:34:54.834 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:34:55.043 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:34:55.051 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:34:55.054 [info] Syncing profile. Python
+2024-06-11 20:34:55.061 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:34:55.062 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:34:55.270 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:34:55.270 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:34:55.276 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:34:55.290 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:34:55.298 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:34:55.308 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:34:55.854 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:34:55.854 [error] extensions: XHR failed
+2024-06-11 20:34:55.855 [info] Sync done. Took 1855ms
+2024-06-11 20:35:11.068 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:35:11.068 [info] Sync started.
+2024-06-11 20:35:11.443 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:35:11.479 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:35:11.488 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:35:11.521 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:35:11.542 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:35:11.543 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:35:11.821 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:35:12.120 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:35:12.136 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:35:12.141 [info] Syncing profile. Python
+2024-06-11 20:35:12.144 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:35:12.144 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:35:12.399 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:35:12.402 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:35:12.428 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:35:12.453 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:35:12.460 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:35:12.471 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:35:12.980 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:35:12.980 [error] extensions: XHR failed
+2024-06-11 20:35:12.981 [info] Sync done. Took 1913ms
+2024-06-11 20:35:46.502 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:35:46.502 [info] Sync started.
+2024-06-11 20:35:46.889 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:35:46.923 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:35:46.926 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:35:46.937 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:35:46.944 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:35:46.946 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:35:47.007 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:35:47.237 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:35:47.272 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:35:47.274 [info] Syncing profile. Python
+2024-06-11 20:35:47.276 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:35:47.276 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:35:48.066 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:35:48.066 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:35:48.157 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:35:48.343 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:35:48.391 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:35:48.417 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:35:49.830 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:35:49.830 [error] extensions: XHR failed
+2024-06-11 20:35:49.831 [info] Sync done. Took 3329ms
+2024-06-11 20:37:30.460 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:37:30.461 [info] Sync started.
+2024-06-11 20:37:30.891 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:37:30.909 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:37:30.914 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:37:30.921 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:37:30.933 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:37:30.934 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:37:31.009 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:37:31.376 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:37:31.383 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:37:31.387 [info] Syncing profile. Python
+2024-06-11 20:37:31.392 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:37:31.392 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:37:31.587 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:37:31.587 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:37:31.590 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:37:31.598 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:37:31.605 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:37:31.921 [info] GlobalState (Python): Updated remote ui state. Updated: workbench.panel.alignment.
+2024-06-11 20:37:31.934 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-11 20:37:32.455 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:37:32.455 [error] extensions: XHR failed
+2024-06-11 20:37:32.455 [info] Sync done. Took 1994ms
+2024-06-11 20:37:36.443 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:37:36.443 [info] Sync started.
+2024-06-11 20:37:36.734 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:37:36.766 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:37:36.775 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:37:36.782 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:37:36.794 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:37:36.795 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:37:36.898 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:37:36.990 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:37:36.995 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:37:36.998 [info] Syncing profile. Python
+2024-06-11 20:37:37.002 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:37:37.002 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:37:37.266 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:37:37.267 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:37:37.278 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:37:37.294 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:37:37.300 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:37:37.578 [info] GlobalState (Python): Updated remote ui state. Updated: workbench.panel.alignment.
+2024-06-11 20:37:37.587 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-11 20:37:38.051 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:37:38.051 [error] extensions: XHR failed
+2024-06-11 20:37:38.051 [info] Sync done. Took 1608ms
+2024-06-11 20:38:47.904 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:38:47.904 [info] Sync started.
+2024-06-11 20:38:48.210 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:38:48.225 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:38:48.234 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:38:48.241 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:38:48.261 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:38:48.276 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:38:48.373 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:38:48.772 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:38:48.823 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:38:48.826 [info] Syncing profile. Python
+2024-06-11 20:38:48.827 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:38:48.828 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:38:49.056 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:38:49.056 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:38:49.060 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:38:49.074 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:38:49.084 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:38:49.359 [info] GlobalState (Python): Updated remote ui state. Updated: workbench.statusbar.hidden,languageStatus.dedicated.
+2024-06-11 20:38:49.380 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-11 20:38:49.843 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:38:49.844 [error] extensions: XHR failed
+2024-06-11 20:38:49.844 [info] Sync done. Took 1940ms
+2024-06-11 20:39:01.374 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:39:01.375 [info] Sync started.
+2024-06-11 20:39:01.659 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:39:01.744 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:39:01.752 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:39:01.760 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:39:01.768 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:39:01.770 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:39:01.844 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:39:01.956 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:39:01.966 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:39:01.971 [info] Syncing profile. Python
+2024-06-11 20:39:01.973 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:39:01.973 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:39:02.209 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:39:02.209 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:39:02.217 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:39:02.225 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:39:02.235 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:39:02.241 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:39:02.658 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:39:02.658 [error] extensions: XHR failed
+2024-06-11 20:39:02.658 [info] Sync done. Took 1283ms
+2024-06-11 20:39:43.866 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:39:43.912 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:39:46.171 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:39:46.171 [info] Sync started.
+2024-06-11 20:39:46.526 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:39:46.647 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:39:46.668 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:39:46.769 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:39:46.795 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:39:46.865 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:39:46.877 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:39:47.046 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:39:47.086 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:39:47.098 [info] Syncing profile. Python
+2024-06-11 20:39:47.105 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:39:47.106 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:39:47.323 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:39:47.323 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:39:47.361 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:39:47.587 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:39:47.651 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:39:48.130 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:39:49.014 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:39:49.014 [error] extensions: XHR failed
+2024-06-11 20:39:49.014 [info] Sync done. Took 2843ms
+2024-06-11 20:39:56.776 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:39:56.776 [info] Sync started.
+2024-06-11 20:39:57.166 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:39:57.219 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:39:57.246 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:39:57.482 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:39:57.523 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:39:57.639 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:39:57.663 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:39:58.043 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:39:58.089 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:39:58.144 [info] Syncing profile. Python
+2024-06-11 20:39:58.171 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:39:58.171 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:39:58.529 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:39:58.530 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:39:58.548 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:39:58.794 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:39:58.892 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:39:59.451 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:40:02.469 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:40:02.470 [error] extensions: XHR failed
+2024-06-11 20:40:02.471 [info] Sync done. Took 5695ms
+2024-06-11 20:40:34.265 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:40:34.266 [info] Sync started.
+2024-06-11 20:40:34.545 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:40:34.569 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:40:34.584 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:40:34.597 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:40:34.617 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:40:34.620 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:40:34.624 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:40:34.716 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:40:34.724 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:40:34.728 [info] Syncing profile. Python
+2024-06-11 20:40:34.730 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:40:34.730 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:40:34.996 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:40:34.996 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:40:34.998 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:40:35.009 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:40:35.017 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:40:35.090 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:40:35.594 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:40:35.594 [error] extensions: XHR failed
+2024-06-11 20:40:35.595 [info] Sync done. Took 1329ms
+2024-06-11 20:40:52.031 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:40:52.031 [info] Sync started.
+2024-06-11 20:40:52.350 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:40:52.380 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:40:52.386 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:40:52.396 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:40:52.407 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:40:52.410 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:40:52.417 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:40:52.507 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:40:52.513 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:40:52.519 [info] Syncing profile. Python
+2024-06-11 20:40:52.526 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:40:52.526 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:40:52.918 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:40:52.919 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:40:52.950 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:40:53.036 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:40:53.050 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:40:53.257 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:40:53.785 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:40:53.786 [error] extensions: XHR failed
+2024-06-11 20:40:53.786 [info] Sync done. Took 1754ms
+2024-06-11 20:41:23.910 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:41:23.917 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:41:25.935 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:41:25.936 [info] Sync started.
+2024-06-11 20:41:26.203 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:41:26.217 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:41:26.220 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:41:26.232 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:41:26.241 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:41:26.248 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:41:27.304 [info] GlobalState: Updated remote ui state. Updated: memento/workbench.editor.keybindings.
+2024-06-11 20:41:27.336 [info] GlobalState: Updated last synchronized ui state
+2024-06-11 20:41:27.463 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:41:27.536 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:41:27.541 [info] Syncing profile. Python
+2024-06-11 20:41:27.545 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:41:27.545 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:41:27.820 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:41:27.820 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:41:27.921 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:41:27.934 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:41:27.953 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:41:28.049 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:41:28.650 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:41:28.650 [error] extensions: XHR failed
+2024-06-11 20:41:28.650 [info] Sync done. Took 2714ms
+2024-06-11 20:41:34.205 [debug] Auto Sync: Skipped. Limited to once per 10 seconds.
+2024-06-11 20:42:12.537 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:42:12.537 [info] Sync started.
+2024-06-11 20:42:12.881 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:42:12.890 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:42:12.904 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:42:12.908 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:42:12.922 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:42:12.926 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:42:12.931 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:42:13.007 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:42:13.025 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:42:13.032 [info] Syncing profile. Python
+2024-06-11 20:42:13.037 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:42:13.037 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:42:13.287 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:42:13.287 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:42:13.294 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:42:13.302 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:42:13.307 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:42:13.356 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:42:13.783 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:42:13.783 [error] extensions: XHR failed
+2024-06-11 20:42:13.784 [info] Sync done. Took 1247ms
+2024-06-11 20:42:19.142 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:42:19.142 [info] Sync started.
+2024-06-11 20:42:19.385 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:42:19.395 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:42:19.404 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:42:19.413 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:42:19.423 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:42:19.424 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:42:19.430 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:42:19.487 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:42:19.506 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:42:19.511 [info] Syncing profile. Python
+2024-06-11 20:42:19.521 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:42:19.521 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:42:19.751 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:42:19.752 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:42:19.758 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:42:19.772 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:42:19.776 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:42:19.857 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:42:20.397 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:42:20.397 [error] extensions: XHR failed
+2024-06-11 20:42:20.397 [info] Sync done. Took 1255ms
+2024-06-11 20:43:14.328 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:43:14.328 [info] Sync started.
+2024-06-11 20:43:16.261 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:43:16.618 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:43:16.679 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:43:16.706 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:43:16.819 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:43:16.897 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:43:16.906 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:43:17.270 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:43:17.288 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:43:17.316 [info] Syncing profile. Python
+2024-06-11 20:43:17.352 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:43:17.353 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:43:17.730 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:43:17.730 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:43:18.246 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:43:18.847 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:43:19.422 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:43:20.538 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:43:21.528 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:43:21.528 [error] extensions: XHR failed
+2024-06-11 20:43:21.528 [info] Sync done. Took 7200ms
+2024-06-11 20:48:21.571 [info] Auto Sync: Triggered by Interval
+2024-06-11 20:48:21.571 [info] Sync started.
+2024-06-11 20:48:22.016 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:48:22.033 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:48:22.037 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:48:22.042 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:48:22.053 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:48:22.054 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:48:22.065 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:48:23.107 [info] Extensions: Uninstalled local extension. davidanson.vscode-markdownlint
+2024-06-11 20:48:23.785 [info] Extensions: Uninstalled local extension. eamodio.gitlens
+2024-06-11 20:48:24.850 [info] Extensions: Uninstalled local extension. esbenp.prettier-vscode
+2024-06-11 20:48:25.386 [info] Extensions: Uninstalled local extension. github.vscode-github-actions
+2024-06-11 20:48:25.513 [info] Extensions: Uninstalled local extension. ms-azuretools.vscode-azurecontainerapps
+2024-06-11 20:48:26.018 [info] Extensions: Uninstalled local extension. ms-python.python
+2024-06-11 20:48:26.322 [info] Extensions: Uninstalled local extension. ms-python.vscode-pylance
+2024-06-11 20:48:26.459 [info] Extensions: Uninstalled local extension. ms-vscode-remote.remote-wsl
+2024-06-11 20:48:26.514 [info] Extensions: Uninstalled local extension. ms-vscode-remote.vscode-remote-extensionpack
+2024-06-11 20:48:26.576 [info] Extensions: Uninstalled local extension. ms-vscode.cpptools-themes
+2024-06-11 20:48:26.665 [info] Extensions: Uninstalled local extension. ms-vscode.remote-explorer
+2024-06-11 20:48:26.838 [info] Extensions: Uninstalled local extension. ms-vscode.remote-server
+2024-06-11 20:48:26.865 [info] Extensions: Updated last synchronized extensions.
+2024-06-11 20:48:26.952 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:48:27.042 [info] Syncing profile. Python
+2024-06-11 20:48:27.064 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:48:27.064 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:48:27.458 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:48:27.458 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:48:27.619 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:48:27.835 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:48:27.842 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:48:32.489 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:48:32.529 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-11 20:48:33.103 [debug] Auto Sync: Waiting until sync is finished.
+2024-06-11 20:48:34.838 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:48:34.838 [error] extensions: XHR failed
+2024-06-11 20:48:34.839 [info] Sync done. Took 13268ms
+2024-06-11 20:48:34.842 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:48:34.842 [info] Sync started.
+2024-06-11 20:48:35.624 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:48:35.837 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:48:35.868 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:48:35.885 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:48:35.927 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:48:36.075 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:48:36.084 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:48:37.407 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:48:37.542 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:48:37.590 [info] Syncing profile. Python
+2024-06-11 20:48:37.643 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:48:37.643 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:48:38.486 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:48:38.486 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:48:38.561 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:48:38.739 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:48:38.976 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:48:41.878 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:48:43.107 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:48:43.107 [error] extensions: XHR failed
+2024-06-11 20:48:43.108 [info] Sync done. Took 8266ms
+2024-06-11 20:49:53.124 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:49:53.125 [info] Sync started.
+2024-06-11 20:49:53.723 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:49:53.748 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:49:53.758 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:49:53.766 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:49:53.790 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:49:53.804 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:49:53.813 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:49:53.997 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:49:54.009 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:49:54.015 [info] Syncing profile. Python
+2024-06-11 20:49:54.018 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:49:54.019 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:49:54.248 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:49:54.248 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:49:54.256 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:49:54.266 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:49:54.275 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:49:55.056 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:49:56.534 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:49:56.537 [error] extensions: XHR failed
+2024-06-11 20:49:56.538 [info] Sync done. Took 3413ms
+2024-06-11 20:50:24.557 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:50:24.557 [info] Sync started.
+2024-06-11 20:50:24.807 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:50:24.812 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:50:24.815 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:50:24.818 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:50:24.833 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:50:24.834 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:50:24.838 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:50:24.879 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:50:24.884 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:50:24.887 [info] Syncing profile. Python
+2024-06-11 20:50:24.893 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:50:24.893 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:50:25.107 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:50:25.107 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:50:25.113 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:50:25.117 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:50:25.123 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:50:25.211 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:50:25.680 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:50:25.680 [error] extensions: XHR failed
+2024-06-11 20:50:25.680 [info] Sync done. Took 1123ms
+2024-06-11 20:55:26.217 [info] Auto Sync: Triggered by Interval
+2024-06-11 20:55:26.217 [info] Sync started.
+2024-06-11 20:55:26.918 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:55:26.930 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:55:26.936 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:55:26.945 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:55:26.956 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 20:55:26.957 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 20:55:26.970 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:55:27.034 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:55:27.037 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:55:27.039 [info] Syncing profile. Python
+2024-06-11 20:55:27.041 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:55:27.041 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:55:27.230 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:55:27.230 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:55:27.233 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:55:27.240 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:55:27.246 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:55:27.315 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:55:27.727 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:55:27.727 [error] extensions: XHR failed
+2024-06-11 20:55:27.728 [info] Sync done. Took 1511ms
+2024-06-11 21:00:27.945 [info] Auto Sync: Triggered by Interval
+2024-06-11 21:00:27.945 [info] Sync started.
+2024-06-11 21:00:28.410 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 21:00:28.419 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 21:00:28.424 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 21:00:28.436 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 21:00:28.454 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 21:00:28.457 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 21:00:28.466 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 21:00:28.513 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 21:00:28.516 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 21:00:28.518 [info] Syncing profile. Python
+2024-06-11 21:00:28.522 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 21:00:28.522 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 21:00:28.706 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 21:00:28.706 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 21:00:28.708 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 21:00:28.714 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 21:00:28.725 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 21:00:28.793 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 21:00:29.184 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 21:00:29.184 [error] extensions: XHR failed
+2024-06-11 21:00:29.185 [info] Sync done. Took 1240ms
+2024-06-11 21:05:29.487 [info] Auto Sync: Triggered by Interval
+2024-06-11 21:05:29.487 [info] Sync started.
+2024-06-11 21:05:29.875 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 21:05:29.882 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 21:05:29.886 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 21:05:29.891 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 21:05:29.904 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 21:05:29.906 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 21:05:29.911 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 21:05:29.944 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 21:05:29.950 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 21:05:29.952 [info] Syncing profile. Python
+2024-06-11 21:05:29.956 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 21:05:29.956 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 21:05:30.222 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 21:05:30.222 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 21:05:30.229 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 21:05:30.240 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 21:05:30.247 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 21:05:30.312 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 21:05:30.822 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 21:05:30.822 [error] extensions: XHR failed
+2024-06-11 21:05:30.822 [info] Sync done. Took 1335ms
+2024-06-11 21:10:31.744 [info] Auto Sync: Triggered by Interval
+2024-06-11 21:10:31.744 [info] Sync started.
+2024-06-11 21:10:32.296 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 21:10:32.303 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 21:10:32.306 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 21:10:32.313 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 21:10:32.320 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 21:10:32.321 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 21:10:32.324 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 21:10:32.359 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 21:10:32.368 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 21:10:32.370 [info] Syncing profile. Python
+2024-06-11 21:10:32.372 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 21:10:32.372 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 21:10:32.569 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 21:10:32.569 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 21:10:32.574 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 21:10:32.578 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 21:10:32.584 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 21:10:32.639 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 21:10:32.963 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 21:10:32.963 [error] extensions: XHR failed
+2024-06-11 21:10:32.964 [info] Sync done. Took 1220ms
+2024-06-11 21:15:33.123 [info] Auto Sync: Triggered by Interval
+2024-06-11 21:15:33.124 [info] Sync started.
+2024-06-11 21:15:33.646 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 21:15:33.655 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 21:15:33.661 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 21:15:33.667 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 21:15:33.677 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 21:15:33.679 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 21:15:33.686 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 21:15:33.718 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 21:15:33.730 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 21:15:33.741 [info] Syncing profile. Python
+2024-06-11 21:15:33.746 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 21:15:33.746 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 21:15:33.953 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 21:15:33.953 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 21:15:33.957 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 21:15:33.968 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 21:15:33.978 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 21:15:34.065 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 21:15:34.562 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 21:15:34.562 [error] extensions: XHR failed
+2024-06-11 21:15:34.562 [info] Sync done. Took 1438ms
+2024-06-11 21:20:35.253 [info] Auto Sync: Triggered by Interval
+2024-06-11 21:20:35.253 [info] Sync started.
+2024-06-11 21:20:35.675 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 21:20:35.684 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 21:20:35.687 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 21:20:35.695 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 21:20:35.709 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 21:20:35.712 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 21:20:35.721 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 21:20:35.778 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 21:20:35.783 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 21:20:35.785 [info] Syncing profile. Python
+2024-06-11 21:20:35.791 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 21:20:35.791 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 21:20:35.985 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 21:20:35.985 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 21:20:35.989 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 21:20:35.997 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 21:20:36.004 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 21:20:36.093 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 21:20:36.537 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 21:20:36.537 [error] extensions: XHR failed
+2024-06-11 21:20:36.538 [info] Sync done. Took 1285ms
+2024-06-11 21:25:37.043 [info] Auto Sync: Triggered by Interval
+2024-06-11 21:25:37.043 [info] Sync started.
+2024-06-11 21:25:37.511 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 21:25:37.519 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 21:25:37.525 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 21:25:37.534 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 21:25:37.547 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 21:25:37.550 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 21:25:37.557 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 21:25:37.593 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 21:25:37.599 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 21:25:37.605 [info] Syncing profile. Python
+2024-06-11 21:25:37.608 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 21:25:37.608 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 21:25:37.806 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 21:25:37.806 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 21:25:37.812 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 21:25:37.821 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 21:25:37.828 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 21:25:37.908 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 21:25:38.361 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 21:25:38.361 [error] extensions: XHR failed
+2024-06-11 21:25:38.361 [info] Sync done. Took 1318ms
+2024-06-11 21:30:38.995 [info] Auto Sync: Triggered by Interval
+2024-06-11 21:30:38.995 [info] Sync started.
+2024-06-11 21:30:39.537 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 21:30:39.543 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 21:30:39.550 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 21:30:39.557 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 21:30:39.579 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 21:30:39.580 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 21:30:39.591 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 21:30:39.639 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 21:30:39.648 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 21:30:39.652 [info] Syncing profile. Python
+2024-06-11 21:30:39.654 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 21:30:39.655 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 21:30:39.855 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 21:30:39.855 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 21:30:39.858 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 21:30:39.866 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 21:30:39.869 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 21:30:39.923 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 21:30:40.352 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 21:30:40.352 [error] extensions: XHR failed
+2024-06-11 21:30:40.352 [info] Sync done. Took 1357ms
+2024-06-11 21:35:40.494 [info] Auto Sync: Triggered by Interval
+2024-06-11 21:35:40.494 [info] Sync started.
+2024-06-11 21:35:40.978 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 21:35:40.991 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 21:35:41.002 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 21:35:41.011 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 21:35:41.023 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 21:35:41.024 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 21:35:41.033 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 21:35:41.103 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 21:35:41.109 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 21:35:41.110 [info] Syncing profile. Python
+2024-06-11 21:35:41.112 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 21:35:41.112 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 21:35:41.292 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 21:35:41.292 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 21:35:41.295 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 21:35:41.299 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 21:35:41.305 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 21:35:41.372 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 21:35:41.736 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 21:35:41.736 [error] extensions: XHR failed
+2024-06-11 21:35:41.737 [info] Sync done. Took 1243ms
+2024-06-11 21:40:42.687 [info] Auto Sync: Triggered by Interval
+2024-06-11 21:40:42.687 [info] Sync started.
+2024-06-11 21:40:43.127 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 21:40:43.141 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 21:40:43.147 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 21:40:43.151 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 21:40:43.162 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 21:40:43.163 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 21:40:43.175 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 21:40:43.208 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 21:40:43.214 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 21:40:43.215 [info] Syncing profile. Python
+2024-06-11 21:40:43.218 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 21:40:43.218 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 21:40:43.456 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 21:40:43.456 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 21:40:43.463 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 21:40:43.478 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 21:40:43.491 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 21:40:43.578 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 21:40:43.987 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 21:40:43.987 [error] extensions: XHR failed
+2024-06-11 21:40:43.987 [info] Sync done. Took 1299ms
+2024-06-11 21:45:44.394 [info] Auto Sync: Triggered by Interval
+2024-06-11 21:45:44.394 [info] Sync started.
+2024-06-11 21:45:44.908 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 21:45:44.914 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 21:45:44.945 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 21:45:44.973 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 21:45:45.001 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 21:45:45.009 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 21:45:45.023 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 21:45:45.099 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 21:45:45.107 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 21:45:45.112 [info] Syncing profile. Python
+2024-06-11 21:45:45.114 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 21:45:45.114 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 21:45:45.375 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 21:45:45.375 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 21:45:45.380 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 21:45:45.393 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 21:45:45.400 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 21:45:45.514 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 21:45:46.161 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 21:45:46.161 [error] extensions: XHR failed
+2024-06-11 21:45:46.162 [info] Sync done. Took 1768ms
+2024-06-11 21:50:46.309 [info] Auto Sync: Triggered by Interval
+2024-06-11 21:50:46.309 [info] Sync started.
+2024-06-11 21:50:46.845 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 21:50:46.859 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 21:50:46.865 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 21:50:46.875 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 21:50:46.888 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 21:50:46.892 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 21:50:46.900 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 21:50:46.970 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 21:50:46.978 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 21:50:46.980 [info] Syncing profile. Python
+2024-06-11 21:50:46.983 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 21:50:46.983 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 21:50:47.213 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 21:50:47.213 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 21:50:47.220 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 21:50:47.231 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 21:50:47.243 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 21:50:47.313 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 21:50:47.692 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 21:50:47.692 [error] extensions: XHR failed
+2024-06-11 21:50:47.693 [info] Sync done. Took 1384ms
+2024-06-11 21:55:48.035 [info] Auto Sync: Triggered by Interval
+2024-06-11 21:55:48.035 [info] Sync started.
+2024-06-11 21:55:48.472 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 21:55:48.485 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 21:55:48.488 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 21:55:48.498 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 21:55:48.520 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 21:55:48.527 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 21:55:48.539 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 21:55:48.616 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 21:55:48.623 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 21:55:48.633 [info] Syncing profile. Python
+2024-06-11 21:55:48.637 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 21:55:48.637 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 21:55:48.861 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 21:55:48.861 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 21:55:48.864 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 21:55:48.868 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 21:55:48.872 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 21:55:48.930 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 21:55:49.366 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 21:55:49.366 [error] extensions: XHR failed
+2024-06-11 21:55:49.366 [info] Sync done. Took 1331ms
+2024-06-11 21:59:29.318 [info] Auto Sync: Triggered by Activity
+2024-06-11 21:59:29.318 [info] Sync started.
+2024-06-11 21:59:30.824 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 21:59:30.844 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 21:59:30.850 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 21:59:30.854 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 21:59:30.869 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 21:59:30.872 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 21:59:30.876 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 21:59:30.908 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 21:59:30.913 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 21:59:30.916 [info] Syncing profile. Python
+2024-06-11 21:59:30.918 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 21:59:30.918 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 21:59:31.113 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 21:59:31.113 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 21:59:31.117 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 21:59:31.123 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 21:59:31.131 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 21:59:31.185 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 21:59:31.993 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 21:59:31.994 [error] extensions: XHR failed
+2024-06-11 21:59:31.994 [info] Sync done. Took 2676ms
+2024-06-11 21:59:35.892 [debug] Auto Sync: Skipped. Limited to once per 10 seconds.
+2024-06-11 22:04:32.004 [info] Auto Sync: Triggered by Interval
+2024-06-11 22:04:32.004 [info] Sync started.
+2024-06-11 22:04:32.414 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 22:04:32.422 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 22:04:32.426 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 22:04:32.432 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 22:04:32.439 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 22:04:32.449 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 22:04:32.457 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 22:04:32.502 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 22:04:32.507 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 22:04:32.509 [info] Syncing profile. Python
+2024-06-11 22:04:32.511 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 22:04:32.511 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 22:04:32.704 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 22:04:32.705 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 22:04:32.710 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 22:04:32.716 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 22:04:32.722 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 22:04:32.795 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 22:04:33.139 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 22:04:33.139 [error] extensions: XHR failed
+2024-06-11 22:04:33.139 [info] Sync done. Took 1135ms
+2024-06-11 22:09:33.147 [info] Auto Sync: Triggered by Interval
+2024-06-11 22:09:33.148 [info] Sync started.
+2024-06-11 22:09:33.627 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 22:09:33.634 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 22:09:33.639 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 22:09:33.654 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 22:09:33.663 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 22:09:33.664 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 22:09:33.668 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 22:09:33.711 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 22:09:33.717 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 22:09:33.721 [info] Syncing profile. Python
+2024-06-11 22:09:33.726 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 22:09:33.726 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 22:09:33.929 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 22:09:33.929 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 22:09:33.933 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 22:09:33.939 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 22:09:33.947 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 22:09:34.004 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 22:09:34.426 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 22:09:34.426 [error] extensions: XHR failed
+2024-06-11 22:09:34.426 [info] Sync done. Took 1278ms
+2024-06-11 22:14:34.445 [info] Auto Sync: Triggered by Interval
+2024-06-11 22:14:34.445 [info] Sync started.
+2024-06-11 22:14:34.926 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 22:14:34.936 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 22:14:34.942 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 22:14:34.953 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 22:14:34.969 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 22:14:34.972 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 22:14:34.980 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 22:14:35.034 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 22:14:35.039 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 22:14:35.042 [info] Syncing profile. Python
+2024-06-11 22:14:35.050 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 22:14:35.050 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 22:14:35.268 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 22:14:35.268 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 22:14:35.272 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 22:14:35.280 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 22:14:35.286 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 22:14:35.360 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 22:14:35.761 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 22:14:35.761 [error] extensions: XHR failed
+2024-06-11 22:14:35.764 [info] Sync done. Took 1319ms
+2024-06-11 22:19:35.773 [info] Auto Sync: Triggered by Interval
+2024-06-11 22:19:35.774 [info] Sync started.
+2024-06-11 22:19:36.300 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 22:19:36.319 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 22:19:36.326 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 22:19:36.337 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 22:19:36.358 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 22:19:36.359 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 22:19:36.372 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 22:19:36.440 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 22:19:36.465 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 22:19:36.488 [info] Syncing profile. Python
+2024-06-11 22:19:36.494 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 22:19:36.494 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 22:19:36.768 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 22:19:36.768 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 22:19:36.777 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 22:19:36.803 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 22:19:36.823 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 22:19:36.976 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 22:19:37.700 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 22:19:37.700 [error] extensions: XHR failed
+2024-06-11 22:19:37.701 [info] Sync done. Took 1927ms
+2024-06-11 22:24:37.723 [info] Auto Sync: Triggered by Interval
+2024-06-11 22:24:37.723 [info] Sync started.
+2024-06-11 22:24:38.289 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 22:24:38.322 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 22:24:38.328 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 22:24:38.339 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 22:24:38.357 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 22:24:38.359 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 22:24:38.373 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 22:24:38.413 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 22:24:38.423 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 22:24:38.424 [info] Syncing profile. Python
+2024-06-11 22:24:38.427 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 22:24:38.427 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 22:24:38.626 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 22:24:38.626 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 22:24:38.642 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 22:24:38.657 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 22:24:38.664 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 22:24:38.755 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 22:24:39.161 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 22:24:39.161 [error] extensions: XHR failed
+2024-06-11 22:24:39.161 [info] Sync done. Took 1438ms
+2024-06-11 22:29:39.174 [info] Auto Sync: Triggered by Interval
+2024-06-11 22:29:39.174 [info] Sync started.
+2024-06-11 22:29:39.612 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 22:29:39.616 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 22:29:39.619 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 22:29:39.622 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 22:29:39.634 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 22:29:39.636 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 22:29:39.642 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 22:29:39.687 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 22:29:39.692 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 22:29:39.694 [info] Syncing profile. Python
+2024-06-11 22:29:39.695 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 22:29:39.695 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 22:29:39.899 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 22:29:39.899 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 22:29:39.902 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 22:29:39.908 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 22:29:39.911 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 22:29:39.956 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 22:29:40.338 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 22:29:40.338 [error] extensions: XHR failed
+2024-06-11 22:29:40.339 [info] Sync done. Took 1165ms
+2024-06-11 22:34:40.392 [info] Auto Sync: Triggered by Interval
+2024-06-11 22:34:40.392 [info] Sync started.
+2024-06-11 22:34:40.851 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 22:34:40.862 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 22:34:40.879 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 22:34:40.940 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 22:34:40.957 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 22:34:40.959 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 22:34:40.966 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 22:34:41.021 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 22:34:41.025 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 22:34:41.027 [info] Syncing profile. Python
+2024-06-11 22:34:41.029 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 22:34:41.029 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 22:34:41.223 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 22:34:41.223 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 22:34:41.227 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 22:34:41.233 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 22:34:41.240 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 22:34:41.313 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 22:34:41.726 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 22:34:41.726 [error] extensions: XHR failed
+2024-06-11 22:34:41.726 [info] Sync done. Took 1334ms
+2024-06-11 22:39:41.738 [info] Auto Sync: Triggered by Interval
+2024-06-11 22:39:41.738 [info] Sync started.
+2024-06-11 22:39:42.208 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 22:39:42.236 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 22:39:42.240 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 22:39:42.246 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 22:39:42.254 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 22:39:42.256 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 22:39:42.264 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 22:39:42.313 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 22:39:42.316 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 22:39:42.317 [info] Syncing profile. Python
+2024-06-11 22:39:42.320 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 22:39:42.320 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 22:39:42.502 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 22:39:42.502 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 22:39:42.506 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 22:39:42.513 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 22:39:42.516 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 22:39:42.583 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 22:39:42.938 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 22:39:42.938 [error] extensions: XHR failed
+2024-06-11 22:39:42.938 [info] Sync done. Took 1200ms
+2024-06-11 22:44:42.951 [info] Auto Sync: Triggered by Interval
+2024-06-11 22:44:42.951 [info] Sync started.
+2024-06-11 22:44:43.398 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 22:44:43.403 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 22:44:43.410 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 22:44:43.414 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 22:44:43.424 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 22:44:43.425 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 22:44:43.428 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 22:44:43.457 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 22:44:43.463 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 22:44:43.464 [info] Syncing profile. Python
+2024-06-11 22:44:43.466 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 22:44:43.466 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 22:44:43.688 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 22:44:43.688 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 22:44:43.693 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 22:44:43.698 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 22:44:43.706 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 22:44:43.791 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 22:44:44.176 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 22:44:44.176 [error] extensions: XHR failed
+2024-06-11 22:44:44.176 [info] Sync done. Took 1225ms
+2024-06-11 22:49:44.187 [info] Auto Sync: Triggered by Interval
+2024-06-11 22:49:44.187 [info] Sync started.
+2024-06-11 22:49:44.596 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 22:49:44.604 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 22:49:44.610 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 22:49:44.615 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 22:49:44.638 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 22:49:44.640 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 22:49:44.645 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 22:49:44.677 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 22:49:44.683 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 22:49:44.686 [info] Syncing profile. Python
+2024-06-11 22:49:44.690 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 22:49:44.690 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 22:49:44.881 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 22:49:44.881 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 22:49:44.884 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 22:49:44.891 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 22:49:44.895 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 22:49:44.947 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 22:49:45.295 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 22:49:45.296 [error] extensions: XHR failed
+2024-06-11 22:49:45.296 [info] Sync done. Took 1109ms
+2024-06-11 22:54:45.308 [info] Auto Sync: Triggered by Interval
+2024-06-11 22:54:45.308 [info] Sync started.
+2024-06-11 22:54:45.816 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 22:54:45.831 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 22:54:45.837 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 22:54:45.845 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 22:54:45.868 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 22:54:45.869 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 22:54:45.877 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 22:54:45.917 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 22:54:45.921 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 22:54:45.926 [info] Syncing profile. Python
+2024-06-11 22:54:45.929 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 22:54:45.929 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 22:54:46.117 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 22:54:46.117 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 22:54:46.120 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 22:54:46.128 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 22:54:46.133 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 22:54:46.196 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 22:54:46.551 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 22:54:46.551 [error] extensions: XHR failed
+2024-06-11 22:54:46.551 [info] Sync done. Took 1243ms
+2024-06-11 22:59:46.556 [info] Auto Sync: Triggered by Interval
+2024-06-11 22:59:46.556 [info] Sync started.
+2024-06-11 22:59:47.161 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 22:59:47.171 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 22:59:47.183 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 22:59:47.187 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 22:59:47.203 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 22:59:47.209 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 22:59:47.225 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 22:59:47.261 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 22:59:47.265 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 22:59:47.268 [info] Syncing profile. Python
+2024-06-11 22:59:47.271 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 22:59:47.271 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 22:59:47.519 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 22:59:47.519 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 22:59:47.525 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 22:59:47.532 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 22:59:47.536 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 22:59:47.619 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 22:59:47.961 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 22:59:47.961 [error] extensions: XHR failed
+2024-06-11 22:59:47.961 [info] Sync done. Took 1405ms
+2024-06-11 23:00:13.028 [info] Auto Sync: Triggered by Activity
+2024-06-11 23:00:13.028 [info] Sync started.
+2024-06-11 23:00:13.033 [debug] Auto Sync: Skipped. Limited to once per 10 seconds.
+2024-06-11 23:00:13.635 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 23:00:13.675 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 23:00:13.693 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 23:00:13.717 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 23:00:13.746 [debug] GlobalStateSync#getLocalArgvContent {"$mid":1,"path":"/User/argv.json","scheme":"vscode-userdata"}
+2024-06-11 23:00:13.754 [debug] Unable to read file 'vscode-userdata:/User/argv.json' (Error: Unable to resolve nonexistent file 'vscode-userdata:/User/argv.json')
+2024-06-11 23:00:13.763 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 23:00:13.816 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 23:00:13.825 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 23:00:13.830 [info] Syncing profile. Python
+2024-06-11 23:00:13.835 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 23:00:13.835 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 23:00:14.092 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 23:00:14.092 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 23:00:14.162 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 23:00:14.227 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 23:00:14.255 [info] Tasks (Python): No changes found during synchronizing tasks.

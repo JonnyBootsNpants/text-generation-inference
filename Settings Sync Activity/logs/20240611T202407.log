@@ -1,0 +1,11 @@
+2024-06-11 20:24:10.959 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-11 20:24:10.959 [info] Auto Sync is enabled.
+2024-06-11 20:24:10.959 [info] Auto Sync: Suspended until auth token is available.
+2024-06-11 20:24:12.941 [info] Deleting non existing profile from backup /User/sync/-28201e28/extensions
+2024-06-11 20:24:12.952 [info] Deleting non existing profile from backup /User/sync/-28201e28/globalState
+2024-06-11 20:24:12.995 [info] Deleting non existing profile from backup /User/sync/-28201e28/keybindings
+2024-06-11 20:24:13.045 [info] Deleting non existing profile from backup /User/sync/-28201e28/profiles
+2024-06-11 20:24:13.072 [info] Deleting non existing profile from backup /User/sync/-28201e28/settings
+2024-06-11 20:24:13.115 [info] Deleting non existing profile from backup /User/sync/-28201e28/snippets
+2024-06-11 20:24:13.137 [info] Deleting non existing profile from backup /User/sync/-28201e28/tasks
+2024-06-11 20:24:18.040 [info] Profiles: Last sync resource does not exist locally.

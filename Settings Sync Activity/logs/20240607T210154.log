@@ -1,0 +1,39 @@
+2024-06-07 21:01:57.888 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-07 21:01:57.888 [info] Auto Sync is enabled.
+2024-06-07 21:01:57.888 [info] Auto Sync: Suspended until auth token is available.
+2024-06-07 21:02:04.168 [info] Profiles: Last sync resource does not exist locally.
+2024-06-07 21:02:39.016 [info] Auto Sync: Triggered by Interval
+2024-06-07 21:02:39.016 [info] Sync started.
+2024-06-07 21:02:39.352 [info] Settings: Last sync resource does not exist locally.
+2024-06-07 21:02:39.607 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 21:02:39.616 [info] Keybindings: Last sync resource does not exist locally.
+2024-06-07 21:02:39.845 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 21:02:39.848 [info] Snippets: Last sync resource does not exist locally.
+2024-06-07 21:02:40.047 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 21:02:40.055 [info] Tasks: Last sync resource does not exist locally.
+2024-06-07 21:02:40.275 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 21:02:40.298 [info] GlobalState: Last sync resource does not exist locally.
+2024-06-07 21:02:41.751 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-07 21:02:41.858 [info] GlobalState: Updated last synchronized ui state
+2024-06-07 21:02:41.883 [info] Extensions: Last sync resource does not exist locally.
+2024-06-07 21:02:42.821 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 21:02:42.821 [error] extensions: XHR failed
+2024-06-07 21:02:42.833 [info] Profiles: Last sync resource does not exist locally.
+2024-06-07 21:02:43.054 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 21:02:43.072 [info] Syncing profile. Python
+2024-06-07 21:02:43.089 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-07 21:02:43.089 [info] Settings (Python): Last sync data state does not exist.
+2024-06-07 21:02:43.385 [info] Settings (Python): Detected conflicts while synchronizing settings.
+2024-06-07 21:02:43.390 [info] Keybindings (Python): Last sync resource does not exist locally.
+2024-06-07 21:02:43.639 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 21:02:43.640 [info] Snippets (Python): Last sync resource does not exist locally.
+2024-06-07 21:02:43.861 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 21:02:43.863 [info] Tasks (Python): Last sync resource does not exist locally.
+2024-06-07 21:02:44.140 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 21:02:44.155 [info] GlobalState (Python): Last sync resource does not exist locally.
+2024-06-07 21:02:44.407 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-07 21:02:44.413 [info] Extensions (Python): Last sync resource does not exist locally.
+2024-06-07 21:02:44.665 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 21:02:44.665 [info] Sync done. Took 5649ms

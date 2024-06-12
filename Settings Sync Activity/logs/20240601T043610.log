@@ -1,0 +1,110 @@
+2024-06-01 04:36:12.853 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-01 04:36:12.853 [info] Auto Sync is enabled.
+2024-06-01 04:36:12.853 [info] Auto Sync: Suspended until auth token is available.
+2024-06-01 04:36:14.367 [info] Deleting non existing profile from backup /User/sync/4f20ffaf/extensions
+2024-06-01 04:36:14.385 [info] Deleting non existing profile from backup /User/sync/4f20ffaf/globalState
+2024-06-01 04:36:14.389 [info] Deleting non existing profile from backup /User/sync/4f20ffaf/keybindings
+2024-06-01 04:36:14.534 [info] Deleting non existing profile from backup /User/sync/4f20ffaf/profiles
+2024-06-01 04:36:14.566 [info] Deleting non existing profile from backup /User/sync/4f20ffaf/settings
+2024-06-01 04:36:14.573 [info] Deleting non existing profile from backup /User/sync/4f20ffaf/snippets
+2024-06-01 04:36:14.590 [info] Deleting non existing profile from backup /User/sync/4f20ffaf/tasks
+2024-06-01 04:36:22.487 [info] Auto Sync: Triggered by Interval
+2024-06-01 04:36:22.487 [info] Sync started.
+2024-06-01 04:36:22.938 [info] Settings: Last sync resource does not exist locally.
+2024-06-01 04:36:23.225 [info] Settings: No changes found during synchronizing settings.
+2024-06-01 04:36:23.241 [info] Keybindings: Last sync resource does not exist locally.
+2024-06-01 04:36:23.506 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-01 04:36:23.540 [info] Snippets: Last sync resource does not exist locally.
+2024-06-01 04:36:24.008 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-01 04:36:24.018 [info] Tasks: Last sync resource does not exist locally.
+2024-06-01 04:36:24.239 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-01 04:36:24.247 [info] GlobalState: Last sync resource does not exist locally.
+2024-06-01 04:36:24.723 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-01 04:36:24.733 [info] Extensions: Last sync resource does not exist locally.
+2024-06-01 04:36:25.451 [info] Extensions: Updated remote extensions. Updated: ["github.codespaces","github.vscode-pull-request-github","ms-vscode.azure-repos"].
+2024-06-01 04:36:25.457 [info] Extensions: Updated last synchronized extensions. Skipped: ["bencoleman.armview","bradlc.vscode-tailwindcss","christian-kohler.npm-intellisense","codezombiech.gitignore","dbaeumer.vscode-eslint","devsense.profiler-php-vscode","formulahendry.vscode-mysql","github.copilot","github.copilot-chat","golang.go","maixiaojie.git-emoji-zh","ms-azure-devops.azure-pipelines","ms-azuretools.azure-dev","ms-azuretools.vscode-azureappservice","ms-azuretools.vscode-azurefunctions","ms-azuretools.vscode-azurestorage","ms-azuretools.vscode-azurevirtualmachines","ms-azuretools.vscode-cosmosdb","ms-azuretools.vscode-docker","ms-dotnettools.vscode-dotnet-runtime","ms-kubernetes-tools.vscode-aks-tools","ms-kubernetes-tools.vscode-kubernetes-tools","ms-mssql.data-workspace-vscode","ms-mssql.mssql","ms-mssql.sql-bindings-vscode","ms-mssql.sql-database-projects-vscode","ms-ossdata.vscode-postgresql","ms-toolsai.vscode-ai","ms-toolsai.vscode-ai-remote","ms-vscode.azure-account","ms-vscode.azurecli","ms-vscode.cpptools-extension-pack","ms-vscode.powershell","ms-vscode.wasm-dwarf-debugging","ms-dotnettools.csharp","msazurermtools.azurerm-vscode-tools","mtxr.sqltools","oracle.oracledevtools","mtxr.sqltools-driver-mysql","ms-python.debugpy","ms-vscode.cmake-tools","vscjava.vscode-java-debug","twxs.cmake","ritwickdey.liveserver","vscjava.vscode-java-dependency","ms-vscode.js-debug-nightly","vscjava.vscode-java-pack","vscjava.vscode-java-test","visualstudioexptteam.intellicode-api-usage-examples","rangav.vscode-thunder-client","vscjava.vscode-maven","wallabyjs.quokka-vscode","visualstudioexptteam.vscodeintellicode","ms-vscode.cpptools","vscjava.vscode-gradle","redhat.vscode-xml","ms-edgedevtools.vscode-edge-devtools","ms-azuretools.vscode-azureresourcegroups","ms-vscode-remote.remote-containers","ms-vscode-remote.remote-ssh","ms-vscode-remote.remote-ssh-edit","ms-dotnettools.csdevkit","redhat.java"].
+2024-06-01 04:36:25.487 [info] Profiles: Last sync resource does not exist locally.
+2024-06-01 04:36:25.866 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-01 04:36:25.901 [info] Syncing profile. Python
+2024-06-01 04:36:26.052 [info] Settings (Python): Last sync data stored locally is not same as the last sync state.
+2024-06-01 04:36:26.452 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-01 04:36:26.478 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-01 04:36:26.506 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-01 04:36:26.516 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-01 04:36:26.521 [info] GlobalState (Python): Last sync data stored locally is not same as the last sync state.
+2024-06-01 04:36:27.450 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-01 04:36:27.470 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-01 04:36:27.487 [info] Extensions (Python): Last sync data stored locally is not same as the last sync state.
+2024-06-01 04:36:28.751 [info] Extensions (Python): Updated last synchronized extensions. Skipped: ["ms-azuretools.vscode-cosmosdb","ms-dotnettools.vscode-dotnet-runtime","ms-kubernetes-tools.vscode-aks-tools","ms-kubernetes-tools.vscode-kubernetes-tools","ms-mssql.data-workspace-vscode","ms-dotnettools.csharp","ms-mssql.mssql","ms-python.debugpy","ms-toolsai.vscode-ai","ms-vscode.azure-account","ms-vscode.azurecli","ms-vscode.powershell","ms-vscode.wasm-dwarf-debugging","ms-toolsai.vscode-ai-remote","oracle.oracledevtools","msazurermtools.azurerm-vscode-tools","ritwickdey.liveserver","mtxr.sqltools","ms-azuretools.vscode-docker","ms-vscode.cpptools-extension-pack","twxs.cmake","bencoleman.armview","redhat.vscode-xml","visualstudioexptteam.vscodeintellicode","vscjava.vscode-java-debug","ms-azuretools.vscode-azurefunctions","ms-vscode.cmake-tools","vscjava.vscode-java-pack","ms-azuretools.vscode-azurestorage","ms-azure-devops.azure-pipelines","christian-kohler.npm-intellisense","ms-azuretools.vscode-azureappservice","ms-azuretools.azure-dev","codezombiech.gitignore","dbaeumer.vscode-eslint","ms-azuretools.vscode-azurevirtualmachines","vscjava.vscode-maven","vscjava.vscode-java-test","vscjava.vscode-java-dependency","golang.go","bradlc.vscode-tailwindcss","formulahendry.vscode-mysql","ms-vscode.cpptools","redhat.java","ms-vscode-remote.remote-containers","ms-vscode-remote.remote-ssh","ms-dotnettools.csdevkit","azurite.azurite","visualstudioexptteam.intellicode-api-usage-examples","charliermarsh.ruff","donjayamanne.python-environment-manager","ms-python.black-formatter","njpwerner.autodocstring","nilssoderman.batch-runner","ms-azuretools.vscode-azureresourcegroups","github.copilot","github.copilot-chat"].
+2024-06-01 04:36:28.772 [info] Sync done. Took 6285ms
+2024-06-01 04:37:08.782 [info] Auto Sync: Triggered by Activity
+2024-06-01 04:37:08.782 [info] Sync started.
+2024-06-01 04:37:09.005 [info] Settings: No changes found during synchronizing settings.
+2024-06-01 04:37:09.008 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-01 04:37:09.010 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-01 04:37:09.014 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-01 04:37:09.032 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-01 04:37:09.091 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-01 04:37:09.093 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-01 04:37:09.094 [info] Syncing profile. Python
+2024-06-01 04:37:09.108 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-01 04:37:09.115 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-01 04:37:09.118 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-01 04:37:09.120 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-01 04:37:09.150 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-01 04:37:09.444 [info] Extensions (Python): Updated remote extensions. Updated: ["github.vscode-pull-request-github","ms-vscode.azure-repos","github.codespaces"].
+2024-06-01 04:37:09.451 [info] Extensions (Python): Updated last synchronized extensions. Skipped: ["ms-azuretools.vscode-cosmosdb","ms-dotnettools.vscode-dotnet-runtime","ms-kubernetes-tools.vscode-aks-tools","ms-kubernetes-tools.vscode-kubernetes-tools","ms-mssql.data-workspace-vscode","ms-dotnettools.csharp","ms-mssql.mssql","ms-python.debugpy","ms-toolsai.vscode-ai","ms-vscode.azure-account","ms-vscode.azurecli","ms-vscode.powershell","ms-vscode.wasm-dwarf-debugging","ms-toolsai.vscode-ai-remote","oracle.oracledevtools","msazurermtools.azurerm-vscode-tools","ritwickdey.liveserver","mtxr.sqltools","ms-azuretools.vscode-docker","ms-vscode.cpptools-extension-pack","twxs.cmake","bencoleman.armview","redhat.vscode-xml","visualstudioexptteam.vscodeintellicode","vscjava.vscode-java-debug","ms-azuretools.vscode-azurefunctions","ms-vscode.cmake-tools","vscjava.vscode-java-pack","ms-azuretools.vscode-azurestorage","ms-azure-devops.azure-pipelines","christian-kohler.npm-intellisense","ms-azuretools.vscode-azureappservice","ms-azuretools.azure-dev","codezombiech.gitignore","dbaeumer.vscode-eslint","ms-azuretools.vscode-azurevirtualmachines","vscjava.vscode-maven","vscjava.vscode-java-test","vscjava.vscode-java-dependency","golang.go","bradlc.vscode-tailwindcss","formulahendry.vscode-mysql","ms-vscode.cpptools","redhat.java","ms-vscode-remote.remote-containers","ms-vscode-remote.remote-ssh","ms-dotnettools.csdevkit","azurite.azurite","visualstudioexptteam.intellicode-api-usage-examples","charliermarsh.ruff","donjayamanne.python-environment-manager","ms-python.black-formatter","njpwerner.autodocstring","nilssoderman.batch-runner","ms-azuretools.vscode-azureresourcegroups","github.copilot","github.copilot-chat"].
+2024-06-01 04:37:09.457 [info] Sync done. Took 675ms
+2024-06-01 04:37:24.794 [info] Auto Sync: Triggered by Activity
+2024-06-01 04:37:24.795 [info] Sync started.
+2024-06-01 04:37:25.166 [info] Settings: No changes found during synchronizing settings.
+2024-06-01 04:37:25.178 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-01 04:37:25.184 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-01 04:37:25.191 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-01 04:37:25.209 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-01 04:37:25.292 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-01 04:37:25.306 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-01 04:37:25.308 [info] Syncing profile. Python
+2024-06-01 04:37:25.336 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-01 04:37:25.342 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-01 04:37:25.347 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-01 04:37:25.352 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-01 04:37:25.399 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-01 04:37:25.498 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-01 04:37:25.500 [info] Sync done. Took 704ms
+2024-06-01 04:37:33.732 [info] Auto Sync: Triggered by Activity
+2024-06-01 04:37:33.732 [info] Sync started.
+2024-06-01 04:37:33.989 [info] Settings: No changes found during synchronizing settings.
+2024-06-01 04:37:34.008 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-01 04:37:34.010 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-01 04:37:34.012 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-01 04:37:35.019 [info] GlobalState: Updated remote ui state. Updated: workbench.statusbar.hidden,languageStatus.dedicated.
+2024-06-01 04:37:35.026 [info] GlobalState: Updated last synchronized ui state
+2024-06-01 04:37:35.109 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-01 04:37:35.117 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-01 04:37:35.121 [info] Syncing profile. Python
+2024-06-01 04:37:35.139 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-01 04:37:35.142 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-01 04:37:35.150 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-01 04:37:35.153 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-01 04:37:35.187 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-01 04:37:35.266 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-01 04:37:35.267 [info] Sync done. Took 1535ms
+2024-06-01 04:37:56.061 [info] Auto Sync: Triggered by Activity
+2024-06-01 04:37:56.061 [info] Sync started.
+2024-06-01 04:37:56.284 [info] Settings: No changes found during synchronizing settings.
+2024-06-01 04:37:56.288 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-01 04:37:56.293 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-01 04:37:56.296 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-01 04:37:56.793 [info] GlobalState: Updated remote ui state. Updated: workbench.statusbar.hidden,languageStatus.dedicated.
+2024-06-01 04:37:56.797 [info] GlobalState: Updated last synchronized ui state
+2024-06-01 04:37:56.876 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-01 04:37:56.889 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-01 04:37:57.094 [info] Syncing profile. Python
+2024-06-01 04:37:57.268 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-01 04:37:57.320 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-01 04:37:57.330 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-01 04:37:57.345 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-01 04:37:57.439 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-01 04:37:57.609 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-01 04:37:57.610 [info] Sync done. Took 1549ms

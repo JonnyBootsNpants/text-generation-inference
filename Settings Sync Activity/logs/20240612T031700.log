@@ -1,0 +1,9 @@
+2024-06-12 03:17:05.022 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-12 03:17:05.023 [info] Auto Sync is disabled.
+2024-06-12 03:17:05.229 [info] Deleting non existing profile from backup /User/sync/4f20ffaf/extensions
+2024-06-12 03:17:05.239 [info] Deleting non existing profile from backup /User/sync/4f20ffaf/globalState
+2024-06-12 03:17:05.255 [info] Deleting non existing profile from backup /User/sync/4f20ffaf/keybindings
+2024-06-12 03:17:05.268 [info] Deleting non existing profile from backup /User/sync/4f20ffaf/profiles
+2024-06-12 03:17:05.289 [info] Deleting non existing profile from backup /User/sync/4f20ffaf/settings
+2024-06-12 03:17:05.295 [info] Deleting non existing profile from backup /User/sync/4f20ffaf/snippets
+2024-06-12 03:17:05.306 [info] Deleting non existing profile from backup /User/sync/4f20ffaf/tasks

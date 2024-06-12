@@ -1,0 +1,367 @@
+2024-06-07 20:41:27.204 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-07 20:41:27.204 [info] Auto Sync is enabled.
+2024-06-07 20:41:27.204 [info] Auto Sync: Suspended until auth token is available.
+2024-06-07 20:41:32.697 [info] Profiles: Last sync resource does not exist locally.
+2024-06-07 20:41:37.712 [info] Auto Sync: Triggered by Interval
+2024-06-07 20:41:37.712 [info] Sync started.
+2024-06-07 20:41:38.397 [info] Settings: Last sync resource does not exist locally.
+2024-06-07 20:41:38.611 [info] Request failed {"url":"https://vscode-sync.trafficmanager.net/v1/resource/settings/34a925b2-33fb-4c6a-9df1-9c48373cfe04","status":404,"execution-id":"3cd2ed1f-19a8-476e-971e-b3ca858fb3dd"} Not Found
+2024-06-07 20:41:38.612 [info] Settings: Last sync resource does not exist remotely.
+2024-06-07 20:41:39.513 [info] Settings: Accepting remote because it was synced before and the last sync data is not available.
+2024-06-07 20:41:39.583 [info] Settings: Updated local settings
+2024-06-07 20:41:39.729 [info] Settings: Last sync resource does not exist locally.
+2024-06-07 20:41:39.755 [info] Settings: Updated last synchronized settings
+2024-06-07 20:41:39.936 [info] Request failed {"url":"https://vscode-sync.trafficmanager.net/v1/resource/settings/34a925b2-33fb-4c6a-9df1-9c48373cfe04","status":404,"execution-id":"3cd2ed1f-19a8-476e-971e-b3ca858fb3dd"} Not Found
+2024-06-07 20:41:39.936 [info] Settings: Last sync resource does not exist remotely.
+2024-06-07 20:41:39.986 [info] Keybindings: Last sync resource does not exist locally.
+2024-06-07 20:41:43.395 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 20:41:43.748 [info] Snippets: Last sync resource does not exist locally.
+2024-06-07 20:41:44.212 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 20:41:44.224 [info] Tasks: Last sync resource does not exist locally.
+2024-06-07 20:41:44.443 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 20:41:44.450 [info] GlobalState: Last sync resource does not exist locally.
+2024-06-07 20:41:44.667 [info] Request failed {"url":"https://vscode-sync.trafficmanager.net/v1/resource/globalState/2fa3d320-312f-4648-9570-7cb51555e49a","status":404,"execution-id":"3cd2ed1f-19a8-476e-971e-b3ca858fb3dd"} Not Found
+2024-06-07 20:41:44.667 [info] GlobalState: Last sync resource does not exist remotely.
+2024-06-07 20:41:45.207 [info] GlobalState: Accepting remote because it was synced before and the last sync data is not available.
+2024-06-07 20:41:45.240 [info] GlobalState: Updated global state ["cpp.1.sessionCount","csharp.1.editedCount","csharp.1.editedDate","csharp.1.sessionCount","java.2.editedCount","java.2.editedDate","java.2.sessionCount","languageStatus.dedicated","memento/gettingStartedService","recently.opened","settingsEditor2.splitViewWidth","typescript.1.editedCount","typescript.1.editedDate","typescript.1.sessionCount","workbench.statusbar.hidden"]
+2024-06-07 20:41:45.240 [info] GlobalState: Updated local ui state
+2024-06-07 20:41:45.318 [info] GlobalState: Last sync resource does not exist locally.
+2024-06-07 20:41:45.403 [info] Request failed {"url":"https://vscode-sync.trafficmanager.net/v1/resource/globalState/2fa3d320-312f-4648-9570-7cb51555e49a","status":404,"execution-id":"3cd2ed1f-19a8-476e-971e-b3ca858fb3dd"} Not Found
+2024-06-07 20:41:45.403 [info] GlobalState: Last sync resource does not exist remotely.
+2024-06-07 20:41:45.506 [info] GlobalState: Updated remote ui state.
+2024-06-07 20:41:45.526 [info] GlobalState: Updated last synchronized ui state
+2024-06-07 20:41:45.547 [info] Extensions: Last sync resource does not exist locally.
+2024-06-07 20:41:46.493 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 20:41:46.493 [error] extensions: XHR failed
+2024-06-07 20:41:46.507 [info] Profiles: Last sync resource does not exist locally.
+2024-06-07 20:41:46.698 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 20:41:46.700 [info] Syncing profile. Python
+2024-06-07 20:41:46.709 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-07 20:41:46.709 [info] Settings (Python): Last sync data state does not exist.
+2024-06-07 20:41:46.977 [info] Settings (Python): Detected conflicts while synchronizing settings.
+2024-06-07 20:41:46.985 [info] Keybindings (Python): Last sync resource does not exist locally.
+2024-06-07 20:41:47.436 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 20:41:47.439 [info] Snippets (Python): Last sync resource does not exist locally.
+2024-06-07 20:41:47.634 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 20:41:47.636 [info] Tasks (Python): Last sync resource does not exist locally.
+2024-06-07 20:41:48.395 [info] Tasks (Python): Updated local tasks
+2024-06-07 20:41:48.408 [info] Tasks (Python): Updated last synchronized tasks
+2024-06-07 20:41:48.412 [info] GlobalState (Python): Last sync resource does not exist locally.
+2024-06-07 20:41:49.197 [info] GlobalState (Python): Updated global state ["workbench.view.extension.gitlensPatch.state.hidden","workbench.view.extension.references-view.state.hidden","colorThemeData","memento/gettingStartedService","languageStatus.dedicated"]
+2024-06-07 20:41:49.197 [info] GlobalState (Python): Updated local ui state
+2024-06-07 20:41:49.202 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-07 20:41:49.208 [info] Extensions (Python): Last sync resource does not exist locally.
+2024-06-07 20:41:50.066 [info] Extensions (Python): Uninstalled local extension. ms-azuretools.vscode-azurestaticwebapps
+2024-06-07 20:41:50.633 [info] Extensions (Python): Uninstalled local extension. ms-vscode.vscode-node-azure-pack
+2024-06-07 20:41:51.050 [info] Extensions (Python): Updated remote extensions. Updated: ["eamodio.gitlens","esbenp.prettier-vscode","github.vscode-github-actions","ms-python.python","ms-python.vscode-pylance","ms-vscode-remote.remote-wsl","ms-vscode.remote-explorer","ms-vscode.remote-server","redhat.vscode-yaml","ms-azuretools.vscode-azurecontainerapps"].
+2024-06-07 20:41:51.427 [info] Extensions (Python): Updated last synchronized extensions.
+2024-06-07 20:41:51.547 [info] Sync done. Took 13835ms
+2024-06-07 20:41:51.547 [info] Auto Sync: Triggered by Activity
+2024-06-07 20:41:51.547 [info] Sync started.
+2024-06-07 20:41:51.925 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 20:41:51.977 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 20:41:51.982 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 20:41:52.033 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 20:41:52.628 [info] GlobalState: Updated remote ui state. Added: workbench.panel.markers.hidden,workbench.panel.output.hidden,terminal.hidden,workbench.explorer.views.state.hidden,workbench.scm.views.state.hidden,workbench.view.search.state.hidden,workbench.activityBar.location,workbench.activity.pinnedViewlets2,workbench.panel.pinnedPanels,workbench.view.extension.gitlens.state.hidden,workbench.view.extension.gitlensInspect.state.hidden,workbench.view.remote.state.hidden,workbench.view.extension.github-actions.state.hidden,workbench.view.extension.1-cloudCodeContainer.state.hidden,workbench.view.extension.1-geminiAIChatViewContainer.state.hidden,workbench.view.extension.azure.state.hidden,workbench.view.extension.azurePanel.state.hidden,workbench.view.extension.dockerView.state.hidden,workbench.view.extension.vscode-edge-devtools-view.state.hidden,workbench.view.extension.kubernetesView.state.hidden,workbench.view.extension.dataworkspace.state.hidden,workbench.view.extension.objectExplorer.state.hidden,workbench.view.extension.sqltoolsActivityBarContainer.state.hidden,workbench.view.extension.sqltoolsPanelContainer.state.hidden,workbench.view.extension.oracle-db-explorer.state.hidden,workbench.view.extension.thunder-client.state.hidden,cpp.1.lastSessionDate,cpp.1.sessionCount,java.2.lastSessionDate,java.2.sessionCount,javascript.1.lastSessionDate,javascript.1.sessionCount,typescript.1.lastSessionDate,typescript.1.sessionCount,csharp.1.lastSessionDate,csharp.1.sessionCount,~remote.forwardedPortsContainer.hidden,workbench.welcomePage.walkthroughMetadata,colorThemeData,workbench.view.extensions.state.hidden,memento/gettingStartedService,workbench.panel.alignment,workbench.statusbar.hidden,github-JonnyBootsNpants,workbench.view.extension.wallaby.state.hidden,languageStatus.dedicated,workbench.view.extension.gitlensPanel.state.hidden,microsoft-JmoonBoots@outlook.com,ces/skipSurvey,nps/lastSessionDate,nps/sessionCount,workbench.view.extension.github-pull-requests.state.hidden,Comments.hidden,remoteTunnelServicePromptedPreview,remoteTunnelServiceUsed,workbench.view.extension.test.state.hidden,http.linkProtectionTrustedDomains,remote.explorerType,workbench.panel.chatSidebar.hidden,memento/workbench.editor.keybindings,workbench.view.extension.github-pull-request.state.hidden,microsoft-jmoonboots@outlook.com,workbench.panel.repl.hidden,workbench.view.debug.state.hidden,themeUpdatedNotificationShown,workbench.welcomePage.hiddenCategories,memento/notebookGettingStarted2,fileBasedRecommendations/promptedRecommendations,workbench.view.extension.polyglot-notebook-panel.state.hidden,workbench.view.extension.vscode-serial-monitor-tools.state.hidden,workbench.view.extension.platformio.state.hidden,workbench.view.extension.json-views.state.hidden,remote.tunnels.toRestore.codespaces+cuddly-xylophone-x7vrgr4wqj4c6xj6.1167517602,workbench.view.extension.cmake-view.state.hidden,javascript.1.editedCount,javascript.1.editedDate,extensionsAssistant/ignored_recommendations,nps/isCandidate,nps/skipVersion,workbench.view.extension.PowerShell.state.hidden,tabs-list-width-horizontal,settingsEditor2.splitViewWidth,commandPalette.mru.cache,commandPalette.mru.counter,terminal.integrated.showTerminalConfigPrompt,remote.tunnels.toRestore.undefined.1947375274,userDataProfiles.state.hidden,workbench.view.extension.references-view.state.hidden,remote.tunnels.toRestore.undefined.1341372264,remote.tunnels.toRestore.undefined.319153994,remote.tunnels.toRestore.undefined.-1043189613,typescript.1.editedCount,typescript.1.editedDate,workbench.activity.showAccounts,workbench.telemetryOptOutShown,no-updates-running-as-admin,extensionTips/promptedExecutableTips,workbench.view.extension.1-cloudCodeDuetAIChatViewContainer.state.hidden,java.2.editedCount,java.2.editedDate,refactorPreview.hidden,workbench.view.extension.jupyter-variables.state.hidden,workbench.view.sync.state.hidden,extensionsAssistant/fileExtensionsSuggestionIgnore,recently.opened,fileBasedRecommendations/promptedFileExtensions,menu.hiddenCommands,expandSuggestionDocs,workbench.activity.showProfiles,workbench.panel.testResults.state.hidden,remote.tunnels.toRestore.undefined.-696524448,extensionsAssistant/importantRecommendationsIgnore,remote.tunnels.toRestore.undefined.1054929849,remote.tunnels.toRestore.codespaces+organic-train-q77g7p75gjr9cxg97.-1025360327,csharp.1.editedCount,csharp.1.editedDate,cpp.1.editedCount,cpp.1.editedDate,remote.tunnels.toRestore.codespaces+animated-space-broccoli-r44v4p45vj6qh49q.974206469,remote.tunnels.toRestore.codespaces+turbo-space-palm-tree-7vv4vpvj4449frwv4.974206469,remote.tunnelsView.autoForwardNeverShow,remote.tunnels.toRestore.codespaces+super-funicular-5ggpgxg7pjwp3vv64.-674617231,workbench.view.extension.amazonq.state.hidden,workbench.view.extension.aws-explorer.state.hidden,workbench.view.extension.aws-codewhisperer-reference-log.state.hidden,editor.contrib.largeFileOptimizationsWarner,microsoft-optimus_21@msn.com,switchQuality.selectSettingsSyncServiceDialogShown,workbench.view.extension.liveshare.state.hidden,scm.input.lastActionId,snippets.usageTimestamps,sqltools-driver-credentials-'jmoonboots' on 'Jmoon',remote.tunnels.toRestore.codespaces+turbo-invention-5ggpgxg7pjwxfvpxp.-1215484921,remote.tunnels.toRestoreExpiration.codespaces+turbo-invention-5ggpgxg7pjwxfvpxp.-1215484921,javascript.1.isCandidate,javascript.1.skipVersion.
+2024-06-07 20:41:52.674 [info] GlobalState: Updated last synchronized ui state
+2024-06-07 20:41:53.430 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 20:41:53.430 [error] extensions: XHR failed
+2024-06-07 20:41:53.437 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 20:41:53.444 [info] Syncing profile. Python
+2024-06-07 20:41:53.444 [info] Settings (Python): Skipped synchronizing settings as there are conflicts.
+2024-06-07 20:41:53.455 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 20:41:53.477 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 20:41:53.484 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 20:41:53.697 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-07 20:41:54.059 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 20:41:54.060 [info] Sync done. Took 2513ms
+2024-06-07 20:41:54.061 [info] Auto Sync: Triggered by Activity
+2024-06-07 20:41:54.062 [info] Sync started.
+2024-06-07 20:41:54.272 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 20:41:54.289 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 20:41:54.294 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 20:41:54.309 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 20:41:54.335 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-07 20:41:54.880 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 20:41:54.880 [error] extensions: XHR failed
+2024-06-07 20:41:54.892 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 20:41:54.898 [info] Syncing profile. Python
+2024-06-07 20:41:54.898 [info] Settings (Python): Skipped synchronizing settings as there are conflicts.
+2024-06-07 20:41:54.939 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 20:41:54.959 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 20:41:54.984 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 20:41:55.331 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-07 20:41:55.576 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 20:41:55.577 [info] Sync done. Took 1514ms
+2024-06-07 20:41:55.577 [info] Auto Sync: Triggered by Activity
+2024-06-07 20:41:55.577 [info] Sync started.
+2024-06-07 20:41:55.684 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 20:41:55.692 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 20:41:55.695 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 20:41:55.710 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 20:41:55.739 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-07 20:41:55.938 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 20:41:55.938 [error] extensions: XHR failed
+2024-06-07 20:41:55.943 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 20:41:55.947 [info] Syncing profile. Python
+2024-06-07 20:41:55.947 [info] Settings (Python): Skipped synchronizing settings as there are conflicts.
+2024-06-07 20:41:55.949 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 20:41:55.956 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 20:41:55.958 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 20:41:56.006 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-07 20:41:56.088 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 20:41:56.089 [info] Sync done. Took 512ms
+2024-06-07 20:43:00.874 [info] Auto Sync: Triggered by Activity
+2024-06-07 20:43:00.874 [info] Sync started.
+2024-06-07 20:43:01.235 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 20:43:01.263 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 20:43:01.270 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 20:43:01.301 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 20:43:01.342 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-07 20:43:01.819 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 20:43:01.819 [error] extensions: XHR failed
+2024-06-07 20:43:01.832 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 20:43:01.835 [info] Syncing profile. Python
+2024-06-07 20:43:01.835 [info] Settings (Python): Skipped synchronizing settings as there are conflicts.
+2024-06-07 20:43:01.838 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 20:43:01.859 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 20:43:01.865 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 20:43:01.954 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-07 20:43:02.116 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 20:43:02.121 [info] Sync done. Took 1247ms
+2024-06-07 20:43:08.018 [info] Auto Sync: Triggered by Activity
+2024-06-07 20:43:08.018 [info] Sync started.
+2024-06-07 20:43:08.461 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 20:43:08.487 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 20:43:08.519 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 20:43:08.547 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 20:43:08.695 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-07 20:43:09.367 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 20:43:09.367 [error] extensions: XHR failed
+2024-06-07 20:43:09.371 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 20:43:09.372 [info] Syncing profile. Python
+2024-06-07 20:43:09.372 [info] Settings (Python): Skipped synchronizing settings as there are conflicts.
+2024-06-07 20:43:09.385 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 20:43:09.390 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 20:43:09.401 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 20:43:09.414 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-07 20:43:09.510 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 20:43:09.511 [info] Sync done. Took 1493ms
+2024-06-07 20:43:38.298 [info] Settings (Python): In conflicts state and local change detected. Syncing again...
+2024-06-07 20:44:01.070 [info] Auto Sync: Triggered by Activity
+2024-06-07 20:44:01.070 [info] Sync started.
+2024-06-07 20:44:01.412 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 20:44:01.439 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 20:44:01.450 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 20:44:01.464 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 20:44:01.637 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-07 20:44:02.156 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 20:44:02.156 [error] extensions: XHR failed
+2024-06-07 20:44:02.164 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 20:44:02.166 [info] Syncing profile. Python
+2024-06-07 20:44:02.166 [info] Settings (Python): Skipped synchronizing settings as there are conflicts.
+2024-06-07 20:44:02.168 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 20:44:02.172 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 20:44:02.174 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 20:44:02.184 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-07 20:44:02.242 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 20:44:02.243 [info] Sync done. Took 1172ms
+2024-06-07 20:44:15.358 [info] Auto Sync: Triggered by Activity
+2024-06-07 20:44:15.358 [info] Sync started.
+2024-06-07 20:44:15.746 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 20:44:15.757 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 20:44:15.763 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 20:44:15.768 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 20:44:15.863 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-07 20:44:16.340 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 20:44:16.340 [error] extensions: XHR failed
+2024-06-07 20:44:16.350 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 20:44:16.357 [info] Syncing profile. Python
+2024-06-07 20:44:16.358 [info] Settings (Python): Skipped synchronizing settings as there are conflicts.
+2024-06-07 20:44:16.363 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 20:44:16.369 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 20:44:16.371 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 20:44:16.381 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-07 20:44:16.464 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 20:44:16.465 [info] Sync done. Took 1107ms
+2024-06-07 20:44:39.516 [info] Auto Sync: Triggered by Activity
+2024-06-07 20:44:39.517 [info] Sync started.
+2024-06-07 20:44:39.985 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 20:44:40.040 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 20:44:40.081 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 20:44:40.090 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 20:44:40.401 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-07 20:44:41.339 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 20:44:41.339 [error] extensions: XHR failed
+2024-06-07 20:44:41.358 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 20:44:41.448 [info] Syncing profile. Python
+2024-06-07 20:44:41.448 [info] Settings (Python): Skipped synchronizing settings as there are conflicts.
+2024-06-07 20:44:41.475 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 20:44:41.486 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 20:44:41.490 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 20:44:41.503 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-07 20:44:41.613 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 20:44:41.614 [info] Sync done. Took 2097ms
+2024-06-07 20:47:44.759 [info] Auto Sync: Triggered by Activity
+2024-06-07 20:47:44.759 [info] Sync started.
+2024-06-07 20:47:45.263 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 20:47:45.287 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 20:47:45.291 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 20:47:45.302 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 20:47:45.420 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-07 20:47:46.183 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 20:47:46.183 [error] extensions: XHR failed
+2024-06-07 20:47:46.202 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 20:47:46.211 [info] Syncing profile. Python
+2024-06-07 20:47:46.212 [info] Settings (Python): Skipped synchronizing settings as there are conflicts.
+2024-06-07 20:47:46.219 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 20:47:46.251 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 20:47:46.259 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 20:47:46.690 [info] GlobalState (Python): Updated remote ui state. Updated: memento/gettingStartedService.
+2024-06-07 20:47:46.695 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-07 20:47:46.762 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 20:47:46.763 [info] Sync done. Took 2003ms
+2024-06-07 20:52:46.775 [info] Auto Sync: Triggered by Interval
+2024-06-07 20:52:46.775 [info] Sync started.
+2024-06-07 20:52:47.262 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 20:52:47.275 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 20:52:47.279 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 20:52:47.283 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 20:52:47.370 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-07 20:52:47.854 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 20:52:47.854 [error] extensions: XHR failed
+2024-06-07 20:52:47.861 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 20:52:47.864 [info] Syncing profile. Python
+2024-06-07 20:52:47.864 [info] Settings (Python): Skipped synchronizing settings as there are conflicts.
+2024-06-07 20:52:47.870 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 20:52:47.880 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 20:52:47.886 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 20:52:47.897 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-07 20:52:47.961 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 20:52:47.962 [info] Sync done. Took 1187ms
+2024-06-07 20:57:47.970 [info] Auto Sync: Triggered by Interval
+2024-06-07 20:57:47.970 [info] Sync started.
+2024-06-07 20:57:48.451 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 20:57:48.468 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 20:57:48.476 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 20:57:48.480 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 20:57:48.576 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-07 20:57:49.110 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 20:57:49.110 [error] extensions: XHR failed
+2024-06-07 20:57:49.115 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 20:57:49.117 [info] Syncing profile. Python
+2024-06-07 20:57:49.117 [info] Settings (Python): Skipped synchronizing settings as there are conflicts.
+2024-06-07 20:57:49.119 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 20:57:49.122 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 20:57:49.124 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 20:57:49.132 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-07 20:57:49.199 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 20:57:49.199 [info] Sync done. Took 1229ms
+2024-06-07 21:02:02.695 [info] Auto Sync: Triggered by Activity
+2024-06-07 21:02:02.695 [info] Sync started.
+2024-06-07 21:02:03.202 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 21:02:03.221 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 21:02:03.232 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 21:02:03.235 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 21:02:03.784 [info] GlobalState: Updated remote ui state. Updated: recently.opened.
+2024-06-07 21:02:03.801 [info] GlobalState: Updated last synchronized ui state
+2024-06-07 21:02:04.450 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 21:02:04.450 [error] extensions: XHR failed
+2024-06-07 21:02:04.469 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 21:02:04.479 [info] Syncing profile. Python
+2024-06-07 21:02:04.480 [info] Settings (Python): Skipped synchronizing settings as there are conflicts.
+2024-06-07 21:02:04.497 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 21:02:04.504 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 21:02:04.514 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 21:02:04.520 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-07 21:02:04.604 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 21:02:04.608 [info] Sync done. Took 1913ms
+2024-06-07 21:02:35.627 [info] Auto Sync: Triggered by Activity
+2024-06-07 21:02:35.628 [info] Sync started.
+2024-06-07 21:02:35.880 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 21:02:35.899 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 21:02:35.903 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 21:02:35.907 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 21:02:37.043 [info] GlobalState: Updated remote ui state. Updated: recently.opened.
+2024-06-07 21:02:37.062 [info] GlobalState: Updated last synchronized ui state
+2024-06-07 21:02:37.840 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 21:02:37.840 [error] extensions: XHR failed
+2024-06-07 21:02:37.854 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 21:02:37.881 [info] Syncing profile. Python
+2024-06-07 21:02:37.881 [info] Settings (Python): Skipped synchronizing settings as there are conflicts.
+2024-06-07 21:02:37.888 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 21:02:37.892 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 21:02:37.988 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 21:02:38.572 [info] GlobalState (Python): Updated remote ui state. Updated: remote.explorerType.
+2024-06-07 21:02:38.595 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-07 21:02:38.707 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 21:02:38.709 [info] Sync done. Took 3081ms
+2024-06-07 21:07:39.680 [info] Auto Sync: Triggered by Interval
+2024-06-07 21:07:39.683 [info] Sync started.
+2024-06-07 21:07:40.140 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 21:07:40.156 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 21:07:40.161 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 21:07:40.167 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 21:07:40.802 [info] GlobalState: Updated remote ui state. Updated: workbench.statusbar.hidden,languageStatus.dedicated.
+2024-06-07 21:07:40.810 [info] GlobalState: Updated last synchronized ui state
+2024-06-07 21:07:41.304 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 21:07:41.304 [error] extensions: XHR failed
+2024-06-07 21:07:41.308 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 21:07:41.313 [info] Syncing profile. Python
+2024-06-07 21:07:41.313 [info] Settings (Python): Skipped synchronizing settings as there are conflicts.
+2024-06-07 21:07:41.315 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 21:07:41.321 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 21:07:41.324 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 21:07:41.333 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-07 21:07:41.417 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 21:07:41.418 [info] Sync done. Took 1735ms
+2024-06-07 21:08:53.140 [info] Auto Sync: Triggered by Activity
+2024-06-07 21:08:53.140 [info] Sync started.
+2024-06-07 21:08:53.374 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 21:08:53.401 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 21:08:53.405 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 21:08:53.410 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 21:08:53.532 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-07 21:08:54.107 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-07 21:08:54.108 [error] extensions: XHR failed
+2024-06-07 21:08:54.125 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 21:08:54.130 [info] Syncing profile. Python
+2024-06-07 21:08:54.130 [info] Settings (Python): Skipped synchronizing settings as there are conflicts.
+2024-06-07 21:08:54.145 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 21:08:54.153 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 21:08:54.156 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 21:08:54.161 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-07 21:08:54.252 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 21:08:54.253 [info] Sync done. Took 1113ms

@@ -1,0 +1,112 @@
+2024-06-10 05:36:50.517 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-10 05:36:50.517 [info] Auto Sync is enabled.
+2024-06-10 05:36:50.517 [info] Auto Sync: Suspended until auth token is available.
+2024-06-10 05:36:52.458 [info] Deleting non existing profile from backup /User/sync/-28201e28/extensions
+2024-06-10 05:36:52.497 [info] Deleting non existing profile from backup /User/sync/-28201e28/globalState
+2024-06-10 05:36:52.557 [info] Deleting non existing profile from backup /User/sync/-28201e28/keybindings
+2024-06-10 05:36:52.575 [info] Deleting non existing profile from backup /User/sync/-28201e28/profiles
+2024-06-10 05:36:52.588 [info] Deleting non existing profile from backup /User/sync/-28201e28/settings
+2024-06-10 05:36:52.602 [info] Deleting non existing profile from backup /User/sync/-28201e28/snippets
+2024-06-10 05:36:52.637 [info] Deleting non existing profile from backup /User/sync/-28201e28/tasks
+2024-06-10 05:36:57.760 [info] Profiles: Last sync resource does not exist locally.
+2024-06-10 05:36:59.471 [info] Auto Sync: Triggered by Interval
+2024-06-10 05:36:59.471 [info] Sync started.
+2024-06-10 05:36:59.958 [info] Settings: Last sync resource does not exist locally.
+2024-06-10 05:37:00.395 [info] Settings: No changes found during synchronizing settings.
+2024-06-10 05:37:00.403 [info] Keybindings: Last sync resource does not exist locally.
+2024-06-10 05:37:00.742 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-10 05:37:00.764 [info] Snippets: Last sync resource does not exist locally.
+2024-06-10 05:37:01.093 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-10 05:37:01.210 [info] Tasks: Last sync resource does not exist locally.
+2024-06-10 05:37:01.493 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-10 05:37:01.562 [info] GlobalState: Last sync resource does not exist locally.
+2024-06-10 05:37:03.184 [info] GlobalState: Updated remote ui state. Updated: recently.opened.
+2024-06-10 05:37:03.198 [info] GlobalState: Updated last synchronized ui state
+2024-06-10 05:37:03.210 [info] Extensions: Last sync resource does not exist locally.
+2024-06-10 05:37:03.671 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-10 05:37:03.681 [info] Profiles: Last sync resource does not exist locally.
+2024-06-10 05:37:04.162 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-10 05:37:04.192 [info] Syncing profile. Python
+2024-06-10 05:37:04.210 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-10 05:37:04.210 [info] Settings (Python): Last sync data state does not exist.
+2024-06-10 05:37:04.534 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+async*eb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:27095
+Z/this.c<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:23788
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+Z@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:23779
+async*Y@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:23103
+U@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:21548
+async*sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:20801
+sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:129081
+S@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:120390
+Q@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:119825
+P@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:119369
+async*createSyncTask/run/W<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:117915
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+run@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:117909
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:107723
+async*H@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:106359
+sync/y<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:105897
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:105757
+start@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:105638
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:100841
+n/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:100168
+y@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:659
+fire@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:876
+updateAccount@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:44668
+ob@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:2406:12860
+mb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:2406:12196
+async*lb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:2406:11111
+
+2024-06-10 05:37:04.534 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-10 05:37:04.579 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-10 05:37:04.675 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-10 05:37:04.718 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-10 05:37:04.745 [info] GlobalState (Python): Last sync data stored locally is not same as the last sync state.
+2024-06-10 05:37:05.348 [info] GlobalState (Python): Updated remote ui state. Updated: colorThemeData.
+2024-06-10 05:37:05.410 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-10 05:37:05.478 [info] Extensions (Python): Last sync data stored locally is not same as the last sync state.
+2024-06-10 05:37:06.460 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+async*z@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:34800
+getExtensions@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:31394
+updateLocalExtensions/</<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:42925
+updateLocalExtensions/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:42246
+j/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:46103
+withProfileScopedStorageService@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:17166
+j@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:45907
+updateLocalExtensions@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:42192
+async*tb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:39470
+async*ab@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:26031
+async*Z@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:24165
+async*Y@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:23103
+U@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:21548
+async*sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:20801
+sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:129081
+async*S@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:120390
+Q@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:119825
+P@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:119369
+async*createSyncTask/run/W<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:117915
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+run@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:117909
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:107723
+async*H@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:106359
+sync/y<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:105897
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:105757
+start@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:105638
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:100841
+n/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:100168
+y@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:659
+fire@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:876
+updateAccount@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:44668
+ob@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:2406:12860
+mb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:2406:12196
+async*lb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:2406:11111
+async*kb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:2406:10798
+
+2024-06-10 05:37:06.460 [error] extensions: XHR failed
+2024-06-10 05:37:06.462 [info] Sync done. Took 6991ms

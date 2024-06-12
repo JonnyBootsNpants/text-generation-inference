@@ -1,0 +1,230 @@
+2024-06-11 20:21:18.951 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-11 20:21:18.951 [info] Auto Sync is enabled.
+2024-06-11 20:21:18.951 [info] Auto Sync: Suspended until auth token is available.
+2024-06-11 20:21:20.257 [info] Deleting non existing profile from backup /User/sync/-28201e28/extensions
+2024-06-11 20:21:20.303 [info] Deleting non existing profile from backup /User/sync/-28201e28/globalState
+2024-06-11 20:21:20.337 [info] Deleting non existing profile from backup /User/sync/-28201e28/keybindings
+2024-06-11 20:21:20.359 [info] Deleting non existing profile from backup /User/sync/-28201e28/profiles
+2024-06-11 20:21:20.382 [info] Deleting non existing profile from backup /User/sync/-28201e28/settings
+2024-06-11 20:21:20.409 [info] Deleting non existing profile from backup /User/sync/-28201e28/snippets
+2024-06-11 20:21:20.420 [info] Deleting non existing profile from backup /User/sync/-28201e28/tasks
+2024-06-11 20:21:25.506 [info] Profiles: Last sync resource does not exist locally.
+2024-06-11 20:21:36.497 [info] Auto Sync: Triggered by Interval
+2024-06-11 20:21:36.497 [info] Sync started.
+2024-06-11 20:21:37.577 [info] Settings: Last sync resource does not exist locally.
+2024-06-11 20:21:37.905 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:21:37.925 [info] Keybindings: Last sync resource does not exist locally.
+2024-06-11 20:21:38.196 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:21:38.209 [info] Snippets: Last sync resource does not exist locally.
+2024-06-11 20:21:38.504 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:21:38.512 [info] Tasks: Last sync resource does not exist locally.
+2024-06-11 20:21:38.968 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:21:38.976 [info] GlobalState: Last sync resource does not exist locally.
+2024-06-11 20:21:41.330 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:21:41.346 [info] Extensions: Last sync resource does not exist locally.
+2024-06-11 20:21:44.295 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:21:44.331 [info] Profiles: Last sync resource does not exist locally.
+2024-06-11 20:21:48.280 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:21:48.599 [info] Syncing profile. Python
+2024-06-11 20:21:48.775 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:21:48.775 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:21:50.112 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:21:50.112 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:21:50.415 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:21:50.463 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:21:50.490 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:21:50.987 [info] GlobalState (Python): Updated remote ui state. Updated: colorThemeData.
+2024-06-11 20:21:51.064 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-11 20:21:52.690 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:21:52.690 [error] extensions: XHR failed
+2024-06-11 20:21:52.692 [info] Sync done. Took 16195ms
+2024-06-11 20:22:03.481 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:22:03.481 [info] Sync started.
+2024-06-11 20:22:03.990 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:22:04.051 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:22:04.058 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:22:04.063 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:22:04.681 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-11 20:22:04.913 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:22:04.920 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:22:04.926 [info] Syncing profile. Python
+2024-06-11 20:22:04.929 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:22:04.930 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:22:05.171 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:22:05.171 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:22:05.186 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:22:05.197 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:22:05.211 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:22:05.219 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-11 20:22:05.660 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:22:05.660 [error] extensions: XHR failed
+2024-06-11 20:22:05.660 [info] Sync done. Took 2179ms
+2024-06-11 20:24:11.030 [info] Auto Sync: Triggered by Activity
+2024-06-11 20:24:11.030 [info] Sync started.
+2024-06-11 20:24:11.728 [info] Settings: No changes found during synchronizing settings.
+2024-06-11 20:24:11.809 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-11 20:24:11.826 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-11 20:24:11.887 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-11 20:24:13.023 [info] GlobalState: Updated remote ui state. Updated: recently.opened.
+2024-06-11 20:24:13.062 [info] GlobalState: Updated last synchronized ui state
+2024-06-11 20:24:13.124 [error] E@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5448
+create@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5391
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5503
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16967
+_invokeFactory@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1491
+complete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1706
+_onModuleComplete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1051
+_resolve@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:510
+defineModule@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:5585
+_@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1770
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16777
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:3113:10288
+ 2
+2024-06-11 20:24:13.152 [error] E@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5448
+create@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5391
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5503
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16967
+_invokeFactory@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1491
+complete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1706
+_onModuleComplete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1051
+_resolve@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:510
+defineModule@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:5585
+_@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1770
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16777
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:3113:10288
+ 3
+2024-06-11 20:24:13.170 [error] E@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5448
+create@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5391
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5503
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16967
+_invokeFactory@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1491
+complete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1706
+_onModuleComplete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1051
+_resolve@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:510
+defineModule@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:5585
+_@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1770
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16777
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:3113:10288
+ 4
+2024-06-11 20:24:13.172 [error] E@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5448
+create@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5391
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5503
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16967
+_invokeFactory@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1491
+complete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1706
+_onModuleComplete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1051
+_resolve@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:510
+defineModule@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:5585
+_@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1770
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16777
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:3113:10288
+ 5
+2024-06-11 20:24:13.176 [error] E@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5448
+create@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5391
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5503
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16967
+_invokeFactory@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1491
+complete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1706
+_onModuleComplete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1051
+_resolve@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:510
+defineModule@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:5585
+_@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1770
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16777
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:3113:10288
+ 6
+2024-06-11 20:24:14.202 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-11 20:24:14.209 [error] E@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5448
+create@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5391
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5503
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16967
+_invokeFactory@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1491
+complete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1706
+_onModuleComplete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1051
+_resolve@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:510
+defineModule@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:5585
+_@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1770
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16777
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:3113:10288
+ 2
+2024-06-11 20:24:14.211 [error] E@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5448
+create@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5391
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5503
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16967
+_invokeFactory@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1491
+complete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1706
+_onModuleComplete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1051
+_resolve@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:510
+defineModule@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:5585
+_@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1770
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16777
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:3113:10288
+ 3
+2024-06-11 20:24:14.215 [error] E@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5448
+create@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5391
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5503
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16967
+_invokeFactory@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1491
+complete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1706
+_onModuleComplete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1051
+_resolve@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:510
+defineModule@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:5585
+_@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1770
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16777
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:3113:10288
+ 4
+2024-06-11 20:24:14.224 [error] E@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5448
+create@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5391
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5503
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16967
+_invokeFactory@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1491
+complete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1706
+_onModuleComplete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1051
+_resolve@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:510
+defineModule@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:5585
+_@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1770
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16777
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:3113:10288
+ 5
+2024-06-11 20:24:14.228 [error] E@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5448
+create@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5391
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:5503
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16967
+_invokeFactory@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1491
+complete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:1706
+_onModuleComplete@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1051
+_resolve@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:510
+defineModule@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:5:5585
+_@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/loader.js:6:1770
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:646:16777
+@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:3113:10288
+ 6
+2024-06-11 20:24:14.542 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-11 20:24:14.611 [info] Syncing profile. Python
+2024-06-11 20:24:14.645 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-11 20:24:14.646 [info] Settings (Python): Last sync data state does not exist.
+2024-06-11 20:24:15.094 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+
+2024-06-11 20:24:15.094 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-11 20:24:15.114 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-11 20:24:15.129 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-11 20:24:15.174 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-11 20:24:15.797 [info] GlobalState (Python): Updated global state ["colorThemeData"]
+2024-06-11 20:24:15.797 [info] GlobalState (Python): Updated local ui state
+2024-06-11 20:24:15.839 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-11 20:24:17.635 [error] g@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:687:27583
+B@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:797:38012
+
+2024-06-11 20:24:17.636 [error] extensions: XHR failed
+2024-06-11 20:24:17.636 [info] Sync done. Took 6606ms

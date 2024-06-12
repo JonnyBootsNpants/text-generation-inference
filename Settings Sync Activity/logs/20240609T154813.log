@@ -1,0 +1,250 @@
+2024-06-09 15:48:17.707 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-09 15:48:17.707 [info] Auto Sync is enabled.
+2024-06-09 15:48:17.707 [info] Auto Sync: Suspended until auth token is available.
+2024-06-09 15:48:18.832 [info] Deleting non existing profile from backup /User/sync/-7a689fbd/extensions
+2024-06-09 15:48:18.846 [info] Deleting non existing profile from backup /User/sync/-7a689fbd/globalState
+2024-06-09 15:48:18.851 [info] Deleting non existing profile from backup /User/sync/-7a689fbd/keybindings
+2024-06-09 15:48:18.864 [info] Deleting non existing profile from backup /User/sync/-7a689fbd/profiles
+2024-06-09 15:48:18.872 [info] Deleting non existing profile from backup /User/sync/-7a689fbd/settings
+2024-06-09 15:48:18.883 [info] Deleting non existing profile from backup /User/sync/-7a689fbd/snippets
+2024-06-09 15:48:18.894 [info] Deleting non existing profile from backup /User/sync/-7a689fbd/tasks
+2024-06-09 15:48:23.941 [info] Profiles: Last sync resource does not exist locally.
+2024-06-09 15:48:32.963 [info] Auto Sync: Triggered by Interval
+2024-06-09 15:48:32.963 [info] Sync started.
+2024-06-09 15:48:33.924 [info] Settings: Last sync resource does not exist locally.
+2024-06-09 15:48:35.352 [info] Settings: Updated local settings
+2024-06-09 15:48:35.383 [info] Settings: Updated last synchronized settings
+2024-06-09 15:48:35.574 [info] Keybindings: Last sync resource does not exist locally.
+2024-06-09 15:48:36.026 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-09 15:48:36.041 [info] Snippets: Last sync resource does not exist locally.
+2024-06-09 15:48:36.327 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-09 15:48:36.333 [info] Tasks: Last sync resource does not exist locally.
+2024-06-09 15:48:36.711 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-09 15:48:36.750 [info] GlobalState: Last sync resource does not exist locally.
+2024-06-09 15:48:38.277 [info] GlobalState: Updated global state ["recently.opened","csharp.1.editedCount","csharp.1.editedDate"]
+2024-06-09 15:48:38.277 [info] GlobalState: Updated local ui state
+2024-06-09 15:48:38.284 [info] GlobalState: Updated last synchronized ui state
+2024-06-09 15:48:38.291 [info] Extensions: Last sync resource does not exist locally.
+2024-06-09 15:48:38.752 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-09 15:48:38.756 [info] Extensions: Updated last synchronized extensions.
+2024-06-09 15:48:38.761 [info] Profiles: Last sync resource does not exist locally.
+2024-06-09 15:48:38.950 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-09 15:48:38.953 [info] Syncing profile. Python
+2024-06-09 15:48:38.961 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-09 15:48:38.961 [info] Settings (Python): Last sync data state does not exist.
+2024-06-09 15:48:39.204 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+async*eb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:27095
+Z/this.c<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:23788
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+Z@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:23779
+async*Y@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:23103
+U@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:21548
+async*sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:20801
+sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:129081
+S@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:120390
+Q@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:119825
+P@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:119369
+async*createSyncTask/run/W<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:117915
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+run@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:117909
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:107723
+async*H@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:106359
+sync/y<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:105897
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:105757
+start@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:105638
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:100841
+n/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:100168
+y@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:659
+fire@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:876
+updateAccount@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:44668
+ob@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:2406:12860
+mb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:2406:12196
+
+2024-06-09 15:48:39.204 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-09 15:48:39.216 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-09 15:48:39.229 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-09 15:48:39.238 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-09 15:48:39.522 [info] GlobalState (Python): Updated global state ["workbench.statusbar.hidden","commandPalette.mru.cache","commandPalette.mru.counter","languageStatus.dedicated","remote.explorerType"]
+2024-06-09 15:48:39.522 [info] GlobalState (Python): Updated local ui state
+2024-06-09 15:48:39.531 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-09 15:48:39.800 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-09 15:48:39.804 [info] Extensions (Python): Updated last synchronized extensions.
+2024-06-09 15:48:39.806 [info] Sync done. Took 6843ms
+2024-06-09 15:48:55.305 [info] Auto Sync: Triggered by Activity
+2024-06-09 15:48:55.305 [info] Sync started.
+2024-06-09 15:48:55.708 [info] Settings: No changes found during synchronizing settings.
+2024-06-09 15:48:55.714 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-09 15:48:55.720 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-09 15:48:55.724 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-09 15:48:55.806 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-09 15:48:55.922 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-09 15:48:55.925 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-09 15:48:55.930 [info] Syncing profile. Python
+2024-06-09 15:48:55.931 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-09 15:48:55.931 [info] Settings (Python): Last sync data state does not exist.
+2024-06-09 15:48:56.122 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+async*eb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:27095
+Z/this.c<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:23788
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+Z@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:23779
+async*Y@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:23103
+U@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:21548
+async*sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:20801
+sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:129081
+S@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:120390
+Q@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:119825
+P@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:119369
+async*createSyncTask/run/W<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:117915
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+run@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:117909
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:107723
+async*H@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:106359
+sync/y<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:105897
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:105757
+triggerSync/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:104846
+queue@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:14668
+trigger/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:16003
+trigger/this.b<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:15636
+promise callback*trigger@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:15556
+trigger@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:15984
+triggerSync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:104623
+n/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:100266
+y@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:659
+fire@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:876
+getOrCreateActiveProfileSynchronizer/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:125687
+y@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:659
+fire@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:876
+G/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:127567
+y@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:659
+fire@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:876
+R@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:20720
+async*Q/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:20323
+
+2024-06-09 15:48:56.122 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-09 15:48:56.125 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-09 15:48:56.135 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-09 15:48:56.140 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-09 15:48:56.774 [info] GlobalState (Python): Updated remote ui state. Updated: workbench.statusbar.hidden,languageStatus.dedicated.
+2024-06-09 15:48:56.785 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-09 15:48:56.894 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-09 15:48:56.899 [info] Sync done. Took 1593ms
+2024-06-09 15:52:01.356 [info] Auto Sync: Triggered by Activity
+2024-06-09 15:52:01.356 [info] Sync started.
+2024-06-09 15:52:01.919 [info] Settings: No changes found during synchronizing settings.
+2024-06-09 15:52:01.928 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-09 15:52:01.932 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-09 15:52:01.939 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-09 15:52:02.014 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-09 15:52:02.122 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-09 15:52:02.129 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-09 15:52:02.131 [info] Syncing profile. Python
+2024-06-09 15:52:02.137 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-09 15:52:02.137 [info] Settings (Python): Last sync data state does not exist.
+2024-06-09 15:52:02.581 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+async*eb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:27095
+Z/this.c<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:23788
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+Z@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:23779
+async*Y@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:23103
+U@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:21548
+async*sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:20801
+sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:129081
+S@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:120390
+Q@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:119825
+P@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:119369
+async*createSyncTask/run/W<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:117915
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+run@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:117909
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:107723
+async*H@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:106359
+sync/y<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:105897
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:105757
+triggerSync/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:104846
+queue@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:14668
+trigger/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:16003
+trigger/this.b<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:15636
+promise callback*trigger@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:15556
+trigger@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:15984
+triggerSync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:104623
+n/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:100266
+y@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:659
+fire@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:876
+getOrCreateActiveProfileSynchronizer/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:125687
+y@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:659
+fire@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:876
+G/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:127567
+y@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:659
+fire@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:876
+R@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:20720
+async*Q/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:20323
+
+2024-06-09 15:52:02.581 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-09 15:52:02.589 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-09 15:52:02.597 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-09 15:52:02.604 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-09 15:52:03.144 [info] GlobalState (Python): Updated remote ui state. Updated: workbench.statusbar.hidden,languageStatus.dedicated.
+2024-06-09 15:52:03.152 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-09 15:52:03.228 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-09 15:52:03.229 [info] Sync done. Took 1873ms
+2024-06-09 15:52:31.088 [info] Auto Sync: Triggered by Activity
+2024-06-09 15:52:31.089 [info] Sync started.
+2024-06-09 15:52:31.386 [info] Settings: No changes found during synchronizing settings.
+2024-06-09 15:52:31.393 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-09 15:52:31.412 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-09 15:52:31.422 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-09 15:52:31.582 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-09 15:52:31.755 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-09 15:52:31.761 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-09 15:52:31.764 [info] Syncing profile. Python
+2024-06-09 15:52:31.766 [info] Settings (Python): Migrating last sync user data. Resource does not exist.
+2024-06-09 15:52:31.766 [info] Settings (Python): Last sync data state does not exist.
+2024-06-09 15:52:31.971 [error] u@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:777:33199
+Qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:67756
+qb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:63602
+async*eb@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:27095
+Z/this.c<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:23788
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+Z@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:23779
+async*Y@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:23103
+U@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:21548
+async*sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:20801
+sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:129081
+S@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:120390
+Q@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:119825
+P@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:119369
+async*createSyncTask/run/W<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:117915
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+run@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:117909
+I@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:107723
+async*H@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:106359
+sync/y<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:105897
+$@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:13107
+sync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:105757
+triggerSync/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:104846
+queue@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:14668
+trigger/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:16003
+trigger/this.b<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:15636
+promise callback*trigger@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:15556
+trigger@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:135:15984
+triggerSync@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:799:104623
+i/<@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:2405:40454
+y@https://assets.github.dev/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/out/vs/workbench/workbench.web.main.js:89:659
+
+2024-06-09 15:52:31.971 [error] settings: Unable to sync settings as there are errors/warning in settings file.
+2024-06-09 15:52:31.978 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-09 15:52:31.983 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-09 15:52:31.992 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-09 15:52:32.001 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-09 15:52:32.077 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-09 15:52:32.078 [info] Sync done. Took 989ms
+2024-06-09 15:54:29.419 [info] Auto Sync: Triggered by Activity
+2024-06-09 15:54:29.420 [info] Sync started.

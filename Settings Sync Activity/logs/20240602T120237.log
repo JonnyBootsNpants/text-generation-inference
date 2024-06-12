@@ -1,0 +1,13 @@
+2024-06-02 12:02:54.359 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-02 12:02:54.360 [info] Auto Sync is enabled.
+2024-06-02 12:02:54.360 [info] Auto Sync: Suspended until auth token is available.
+2024-06-02 12:02:59.876 [info] Auto Sync: Triggered by Interval
+2024-06-02 12:02:59.876 [info] Sync started.
+2024-06-02 12:03:00.374 [error] a@https://assets.github.dev/stable/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/out/vs/workbench/workbench.web.main.js:776:32652
+s@https://assets.github.dev/stable/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/out/vs/workbench/workbench.web.main.js:776:32982
+I@https://assets.github.dev/stable/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/out/vs/workbench/workbench.web.main.js:793:103105
+
+2024-06-02 12:03:00.783 [info] Auto Sync: Disabled.
+2024-06-02 12:03:00.783 [info] Auto Sync: Stopped
+2024-06-02 12:03:00.785 [info] Did reset the local sync state.
+2024-06-02 12:03:00.785 [info] Auto Sync: Turned off sync because current session is expired
